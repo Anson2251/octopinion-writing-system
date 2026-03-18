@@ -9,22 +9,22 @@ const route = useRoute()
     <nav class="nav">
       <div class="nav-brand">Octopinion</div>
       <div class="nav-links">
-        <router-link 
-          to="/" 
+        <router-link
+          to="/"
           class="nav-link"
           :class="{ active: route.name === 'conlang' }"
         >
-          Conlang Demo
+          Octopinion Demo
         </router-link>
-        <router-link 
-          to="/word-encoding" 
+        <router-link
+          to="/word-encoding"
           class="nav-link"
           :class="{ active: route.name === 'word-encoding' }"
         >
           Word Encoding
         </router-link>
-        <router-link 
-          to="/codebook-words" 
+        <router-link
+          to="/codebook-words"
           class="nav-link"
           :class="{ active: route.name === 'codebook-words' }"
         >
@@ -32,7 +32,7 @@ const route = useRoute()
         </router-link>
       </div>
     </nav>
-    
+
     <main class="main-content">
       <router-view />
     </main>
@@ -106,12 +106,12 @@ const route = useRoute()
     padding: 15px;
     gap: 10px;
   }
-  
+
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .main-content {
     min-height: calc(100vh - 100px);
   }

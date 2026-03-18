@@ -71,7 +71,7 @@ function getSimilarityColor(similarity: number): string {
           class="cluster-header"
           @click="toggleCluster(clusterId)"
         >
-          <span class="cluster-id">Cluster {{ clusterId }}</span>
+          <span class="cluster-id">Cluster {{ clusterId }} ({{ String.fromCharCode(65 + Number(clusterId)) }})</span>
           <div class="cluster-representative">
           <div style="width: fit-content; color: #2e7d32; background: #e8f5e9; padding: 4px 12px; border-radius: 16px;" :title="words[0] ? `Similarity: ${(words[0].similarity * 100).toFixed(1)}%` : ''">
             {{ words[0]?.word }}
@@ -127,17 +127,12 @@ function getSimilarityColor(similarity: number): string {
 <style scoped>
 .codebook-words {
   padding: 20px;
+  padding-top: 0;
   max-width: 900px;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   height: calc(100vh - 60px);
   overflow: auto;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  color: #000;
 }
 
 .description {

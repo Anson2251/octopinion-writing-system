@@ -1,6 +1,6 @@
-# Conlang Writing System Demo
+# Octopinion Writing System Demo
 
-An interactive demo for a constructed language (conlang) writing system, built with Vue 3 and Vite.
+An interactive demo for a constructed language (Octopinion) writing system, built with Vue 3 and Vite.
 
 ## Writing System
 

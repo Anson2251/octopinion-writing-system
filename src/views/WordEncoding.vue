@@ -31,27 +31,33 @@ onMounted(async () => {
 })
 
 // Parse encoding into syllables, handling negative markers
-function parseEncoding(encoding: string): { syllable: string; isNegative: boolean }[] {
-  const parts = encoding.split('-');
-  const result: { syllable: string; isNegative: boolean }[] = [];
+// e.g., "S17-S12-S13--S17-S7-S7" -> [S17, S12, S13, -S17, S7, S7]
+function parseEncoding(encoding: string): { syllable: string; isNegative: boolean; letter: string }[] {
+  const parts = encoding.split('-')
+  const result: { syllable: string; isNegative: boolean; letter: string }[] = []
 
-  let nextIsNegative = false;
+  let nextIsNegative = false
 
   for (const part of parts) {
     if (part === '') {
-      // An empty part means the following token should be negative.
-      nextIsNegative = true;
+      // An empty part means the following token should be negative
+      nextIsNegative = true
     } else {
-      // This part is a syllable like "S17".
+      // This part is a syllable like "S17" - convert to letter (1=A, 2=B, etc.)
+      const syllableNumber = parseInt(part.replace(/^S/i, ''), 10)
+      const letter = syllableNumber > 0 && syllableNumber <= 26
+        ? String.fromCharCode(64 + syllableNumber) // 65 is 'A'
+        : part.replace(/^S/i, '')
       result.push({
         syllable: part,
         isNegative: nextIsNegative,
-      });
-      nextIsNegative = false; // Reset after consuming a token.
+        letter: letter
+      })
+      nextIsNegative = false // Reset after consuming a token
     }
   }
 
-  return result;
+  return result
 }
 
 const filteredVocabulary = computed(() => {
@@ -103,6 +109,7 @@ const filteredCount = computed(() => filteredVocabulary.value.length)
           <tr>
             <th>Word</th>
             <th>Encoding</th>
+            <th>Typing</th>
             <th>Visual Representation</th>
           </tr>
         </thead>
@@ -110,6 +117,18 @@ const filteredCount = computed(() => filteredVocabulary.value.length)
           <tr v-for="[word, encoding] in filteredVocabulary" :key="word">
             <td class="word-cell">{{ word }}</td>
             <td class="encoding-cell">{{ encoding }}</td>
+            <td class="typing-cell">
+              <div class="typing-chars">
+                <span
+                  v-for="(item, index) in parseEncoding(encoding)"
+                  :key="index"
+                  class="typing-char"
+                  :class="{ negative: item.isNegative }"
+                >
+                  {{ item.letter }}
+                </span>
+              </div>
+            </td>
             <td class="visual-cell">
               <div class="syllables">
                 <span
@@ -118,7 +137,7 @@ const filteredCount = computed(() => filteredVocabulary.value.length)
                   class="syllable"
                   :class="{ negative: item.isNegative }"
                 >
-                  {{ item.syllable }}
+                  {{ item.letter }}
                 </span>
               </div>
             </td>
@@ -132,17 +151,12 @@ const filteredCount = computed(() => filteredVocabulary.value.length)
 <style scoped>
 .word-encoding {
   padding: 20px;
+  padding-top: 0;
   max-width: 1200px;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   height: calc(100vh - 60px);
   overflow: auto;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #000;
 }
 
 .stats {
@@ -258,8 +272,8 @@ tr:hover {
   padding: 4px 8px;
   background: #f0f0f0;
   border-radius: 4px;
-  font-family: monospace;
-  font-size: 13px;
+  font-family: 'Untitled1', sans-serif;
+  font-size: 18px;
   position: relative;
 }
 
@@ -278,6 +292,40 @@ tr:hover {
   transform: rotate(-15deg);
 }
 
+.typing-cell {
+  min-width: 120px;
+}
+
+.typing-chars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.typing-char {
+  padding: 4px 8px;
+  background: #e3f2fd;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+}
+
+.typing-char.negative {
+  background: #ffebee;
+}
+
+.typing-char.negative::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: #d32f2f;
+  transform: translateY(-50%) rotate(-15deg);
+}
+
 @media (max-width: 768px) {
   .word-encoding {
     padding: 10px;
@@ -289,6 +337,11 @@ tr:hover {
   }
 
   .syllable {
+    font-size: 16px;
+    padding: 3px 6px;
+  }
+
+  .typing-char {
     font-size: 12px;
     padding: 3px 6px;
   }
