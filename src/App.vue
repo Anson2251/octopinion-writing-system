@@ -3,13 +3,46 @@ import { ref, computed } from 'vue'
 
 const inputText = ref('')
 
+type CaseType = 'nom' | 'acc' | 'gen' | 'dat' | 'abl' | 'ins' | 'voc' | 'loc' | 'all'
+
+const caseNames: Record<CaseType, string> = {
+  nom: 'Nominative',
+  acc: 'Accusative',
+  gen: 'Genitive',
+  dat: 'Dative',
+  abl: 'Ablative',
+  ins: 'Instrumental',
+  voc: 'Vocative',
+  loc: 'Locative',
+  all: 'Allative'
+}
+
 const words = computed(() => {
   if (!inputText.value.trim()) return []
-  return inputText.value.toLocaleUpperCase()
+
+  return inputText.value
     .trim()
     .split(/\s+/)
-    .map(word => word.split(''))
-    .filter(syllables => syllables.length > 0 && syllables.length <= 5)
+    .map(rawWord => {
+      // Parse case from suffix (e.g., "abc.acc" or "abc:acc")
+      const caseMatch = rawWord.match(/^(.+?)[.:](\w+)$/)
+      let word = rawWord.toLocaleUpperCase()
+      let wordCase: CaseType = 'nom'
+
+      if (caseMatch && caseMatch[1] && caseMatch[2]) {
+        word = caseMatch[1].toLocaleUpperCase()
+        const caseCode = caseMatch[2].toLowerCase()
+        if (caseCode in caseNames) {
+          wordCase = caseCode as CaseType
+        }
+      }
+
+      return {
+        syllables: word.split('').filter((_, i) => i < 5),
+        case: wordCase
+      }
+    })
+    .filter(data => data.syllables.length > 0)
 })
 </script>
 
@@ -19,7 +52,8 @@ const words = computed(() => {
 
     <p class="description">
       Enter letter sequences (space-separated). Each sequence becomes a word with 1-5 syllables.
-      Words are written right-to-left.
+      Words are written right-to-left.<br>
+      Add case with suffix: .nom .acc .gen .dat .abl .ins .voc .loc .all
     </p>
 
     <div class="display-area">
@@ -29,34 +63,41 @@ const words = computed(() => {
 
       <div v-else class="words-container">
         <div
-          v-for="(word, wordIndex) in words"
+          v-for="(wordData, wordIndex) in words"
           :key="wordIndex"
-          class="word-block"
+          class="word-wrapper"
         >
-          <!-- Position 2: Top (horizontal rectangle) -->
-          <span v-if="word.length >= 2" class="syllable pos-2">
-            {{ word[1] }}
-          </span>
+          <div
+            class="word-block"
+            :class="['case-' + wordData.case]"
+            :title="caseNames[wordData.case]"
+          >
+            <!-- Position 2: Top (horizontal rectangle) -->
+            <span v-if="wordData.syllables.length >= 2" class="syllable pos-2">
+              {{ wordData.syllables[1] }}
+            </span>
 
-          <!-- Position 5: Left (vertical rectangle) -->
-          <span v-if="word.length >= 5" class="syllable pos-5">
-            {{ word[4] }}
-          </span>
+            <!-- Position 5: Left (vertical rectangle) -->
+            <span v-if="wordData.syllables.length >= 5" class="syllable pos-5">
+              {{ wordData.syllables[4] }}
+            </span>
 
-          <!-- Position 1: Center (square) -->
-          <span class="syllable pos-1">
-            {{ word[0] }}
-          </span>
+            <!-- Position 1: Center (square) -->
+            <span class="syllable pos-1">
+              {{ wordData.syllables[0] }}
+            </span>
 
-          <!-- Position 3: Right (vertical rectangle) -->
-          <span v-if="word.length >= 3" class="syllable pos-3">
-            {{ word[2] }}
-          </span>
+            <!-- Position 3: Right (vertical rectangle) -->
+            <span v-if="wordData.syllables.length >= 3" class="syllable pos-3">
+              {{ wordData.syllables[2] }}
+            </span>
 
-          <!-- Position 4: Bottom (horizontal rectangle) -->
-          <span v-if="word.length >= 4" class="syllable pos-4">
-            {{ word[3] }}
-          </span>
+            <!-- Position 4: Bottom (horizontal rectangle) -->
+            <span v-if="wordData.syllables.length >= 4" class="syllable pos-4">
+              {{ wordData.syllables[3] }}
+            </span>
+          </div>
+          <div class="case-label">{{ caseNames[wordData.case] }}</div>
         </div>
       </div>
     </div>
@@ -65,7 +106,7 @@ const words = computed(() => {
       <input
         v-model="inputText"
         type="text"
-        placeholder="Enter letters (e.g., 'abc def gh')"
+        placeholder="Enter letters with case: abc.acc def.gen gh"
       />
     </div>
   </div>
@@ -99,9 +140,10 @@ h1 {
   text-align: center;
   padding: 0 20px 20px;
   color: #666;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   font-size: 14px;
+  line-height: 1.5;
 }
 
 .display-area {
@@ -122,10 +164,23 @@ h1 {
 .words-container {
   display: flex;
   flex-direction: row-reverse;
-  gap: 60px;
-  align-items: center;
+  gap: 80px;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.word-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.case-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: capitalize;
 }
 
 .word-block {
@@ -139,7 +194,85 @@ h1 {
   gap: 10px;
   align-items: center;
   justify-items: center;
-  padding: 10px;
+  padding: 15px;
+  position: relative;
+}
+
+/* Case markers - lines on the edge */
+.word-block::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+
+/* Nominative - no marker */
+.case-nom::before {
+  display: none;
+}
+
+/* Accusative - line at top */
+.case-acc::before {
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Genitive - line at top-left corner */
+.case-gen::before {
+  top: 5px;
+  left: 5px;
+  transform: rotate(-45deg);
+  transform-origin: left center;
+}
+
+/* Dative - line at left */
+.case-dat::before {
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: center;
+}
+
+/* Ablative - line at bottom-left corner */
+.case-abl::before {
+  bottom: 5px;
+  left: 5px;
+  transform: rotate(45deg);
+  transform-origin: left center;
+}
+
+/* Instrumental - line at bottom */
+.case-ins::before {
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Vocative - line at bottom-right corner */
+.case-voc::before {
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(-45deg);
+  transform-origin: right center;
+}
+
+/* Locative - line at right */
+.case-loc::before {
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: center;
+}
+
+/* Allative - line at top-right corner */
+.case-all::before {
+  top: 5px;
+  right: 5px;
+  transform: rotate(45deg);
+  transform-origin: right center;
 }
 
 .syllable {
@@ -213,7 +346,7 @@ h1 {
 
 input {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   display: block;
   margin: 0 auto;
   padding: 15px 20px;
