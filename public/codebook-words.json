@@ -1,0 +1,842 @@
+{
+  "0": [
+    {
+      "word": "hard",
+      "similarity": 0.9999993443489075
+    },
+    {
+      "word": "rough",
+      "similarity": 0.8298970460891724
+    },
+    {
+      "word": "heavy",
+      "similarity": 0.7948594689369202
+    },
+    {
+      "word": "thick",
+      "similarity": 0.7712460160255432
+    },
+    {
+      "word": "strong",
+      "similarity": 0.7701060771942139
+    },
+    {
+      "word": "deep",
+      "similarity": 0.7541875243186951
+    },
+    {
+      "word": "dark",
+      "similarity": 0.7506593465805054
+    },
+    {
+      "word": "huge",
+      "similarity": 0.7359318733215332
+    },
+    {
+      "word": "big",
+      "similarity": 0.7343038320541382
+    },
+    {
+      "word": "bad",
+      "similarity": 0.7329474687576294
+    }
+  ],
+  "1": [
+    {
+      "word": "big",
+      "similarity": 1.0000001192092896
+    },
+    {
+      "word": "huge",
+      "similarity": 0.9387306571006775
+    },
+    {
+      "word": "thick",
+      "similarity": 0.7877562046051025
+    },
+    {
+      "word": "strong",
+      "similarity": 0.7747952938079834
+    },
+    {
+      "word": "heavy",
+      "similarity": 0.7729806900024414
+    },
+    {
+      "word": "long",
+      "similarity": 0.7572963833808899
+    },
+    {
+      "word": "wide",
+      "similarity": 0.7460875511169434
+    },
+    {
+      "word": "full",
+      "similarity": 0.7429565787315369
+    },
+    {
+      "word": "deep",
+      "similarity": 0.7407762408256531
+    },
+    {
+      "word": "bold",
+      "similarity": 0.7349682450294495
+    }
+  ],
+  "2": [
+    {
+      "word": "near",
+      "similarity": 1.0
+    },
+    {
+      "word": "soon",
+      "similarity": 0.7830932140350342
+    },
+    {
+      "word": "beside",
+      "similarity": 0.7795906662940979
+    },
+    {
+      "word": "around",
+      "similarity": 0.7728445529937744
+    },
+    {
+      "word": "far",
+      "similarity": 0.7450478076934814
+    },
+    {
+      "word": "toward",
+      "similarity": 0.7355560064315796
+    },
+    {
+      "word": "between",
+      "similarity": 0.7253318428993225
+    },
+    {
+      "word": "close",
+      "similarity": 0.721221387386322
+    },
+    {
+      "word": "here",
+      "similarity": 0.7197510600090027
+    },
+    {
+      "word": "below",
+      "similarity": 0.7196037173271179
+    }
+  ],
+  "3": [
+    {
+      "word": "deep",
+      "similarity": 0.999999463558197
+    },
+    {
+      "word": "depth",
+      "similarity": 0.8607271909713745
+    },
+    {
+      "word": "thick",
+      "similarity": 0.7948731780052185
+    },
+    {
+      "word": "dark",
+      "similarity": 0.7684499621391296
+    },
+    {
+      "word": "heavy",
+      "similarity": 0.7635202407836914
+    },
+    {
+      "word": "down",
+      "similarity": 0.7592644095420837
+    },
+    {
+      "word": "hard",
+      "similarity": 0.7541911005973816
+    },
+    {
+      "word": "long",
+      "similarity": 0.7533955574035645
+    },
+    {
+      "word": "shallow",
+      "similarity": 0.748959481716156
+    },
+    {
+      "word": "strong",
+      "similarity": 0.7456232905387878
+    }
+  ],
+  "4": [
+    {
+      "word": "bright",
+      "similarity": 1.0000001192092896
+    },
+    {
+      "word": "bold",
+      "similarity": 0.8174364566802979
+    },
+    {
+      "word": "warm",
+      "similarity": 0.8078947067260742
+    },
+    {
+      "word": "dark",
+      "similarity": 0.7958866357803345
+    },
+    {
+      "word": "light",
+      "similarity": 0.7889878153800964
+    },
+    {
+      "word": "sharp",
+      "similarity": 0.7843840718269348
+    },
+    {
+      "word": "glow",
+      "similarity": 0.7776615619659424
+    },
+    {
+      "word": "green",
+      "similarity": 0.7756443619728088
+    },
+    {
+      "word": "fresh",
+      "similarity": 0.7747496962547302
+    },
+    {
+      "word": "color",
+      "similarity": 0.7725588083267212
+    }
+  ],
+  "5": [
+    {
+      "word": "fast",
+      "similarity": 1.0000004768371582
+    },
+    {
+      "word": "quick",
+      "similarity": 0.8825873732566833
+    },
+    {
+      "word": "bold",
+      "similarity": 0.8020495176315308
+    },
+    {
+      "word": "hot",
+      "similarity": 0.7826382517814636
+    },
+    {
+      "word": "strong",
+      "similarity": 0.7804697751998901
+    },
+    {
+      "word": "slow",
+      "similarity": 0.7757148146629333
+    },
+    {
+      "word": "bright",
+      "similarity": 0.7590101957321167
+    },
+    {
+      "word": "soon",
+      "similarity": 0.7549225687980652
+    },
+    {
+      "word": "sharp",
+      "similarity": 0.752188503742218
+    },
+    {
+      "word": "warm",
+      "similarity": 0.7519271969795227
+    }
+  ],
+  "6": [
+    {
+      "word": "inside",
+      "similarity": 0.7364030480384827
+    },
+    {
+      "word": "inward",
+      "similarity": 0.725249707698822
+    },
+    {
+      "word": "closed",
+      "similarity": 0.7171040773391724
+    },
+    {
+      "word": "open",
+      "similarity": 0.7161273956298828
+    },
+    {
+      "word": "boundary",
+      "similarity": 0.7157301902770996
+    },
+    {
+      "word": "entrance",
+      "similarity": 0.7138988375663757
+    },
+    {
+      "word": "lid",
+      "similarity": 0.7075262665748596
+    },
+    {
+      "word": "wrap",
+      "similarity": 0.7044378519058228
+    },
+    {
+      "word": "den",
+      "similarity": 0.6960141658782959
+    },
+    {
+      "word": "deep",
+      "similarity": 0.6920512318611145
+    }
+  ],
+  "7": [
+    {
+      "word": "myself",
+      "similarity": 0.8491304516792297
+    },
+    {
+      "word": "body",
+      "similarity": 0.7216806411743164
+    },
+    {
+      "word": "mother",
+      "similarity": 0.7076032757759094
+    },
+    {
+      "word": "inward",
+      "similarity": 0.6915633678436279
+    },
+    {
+      "word": "object",
+      "similarity": 0.6837741136550903
+    },
+    {
+      "word": "flesh",
+      "similarity": 0.6826273202896118
+    },
+    {
+      "word": "whole",
+      "similarity": 0.6789312958717346
+    },
+    {
+      "word": "reflect",
+      "similarity": 0.6768745183944702
+    },
+    {
+      "word": "head",
+      "similarity": 0.6761186718940735
+    },
+    {
+      "word": "one",
+      "similarity": 0.6746504306793213
+    }
+  ],
+  "8": [
+    {
+      "word": "alive",
+      "similarity": 1.0000007152557373
+    },
+    {
+      "word": "dead",
+      "similarity": 0.7902097105979919
+    },
+    {
+      "word": "fresh",
+      "similarity": 0.7792696356773376
+    },
+    {
+      "word": "healthy",
+      "similarity": 0.7626758217811584
+    },
+    {
+      "word": "now",
+      "similarity": 0.7558437585830688
+    },
+    {
+      "word": "good",
+      "similarity": 0.7499359250068665
+    },
+    {
+      "word": "current",
+      "similarity": 0.7449788451194763
+    },
+    {
+      "word": "bright",
+      "similarity": 0.7414159178733826
+    },
+    {
+      "word": "still",
+      "similarity": 0.7402727007865906
+    },
+    {
+      "word": "hungry",
+      "similarity": 0.7358801364898682
+    }
+  ],
+  "9": [
+    {
+      "word": "danger",
+      "similarity": 0.8896694779396057
+    },
+    {
+      "word": "poison",
+      "similarity": 0.7712089419364929
+    },
+    {
+      "word": "bad",
+      "similarity": 0.7625893950462341
+    },
+    {
+      "word": "slippery",
+      "similarity": 0.760538637638092
+    },
+    {
+      "word": "sick",
+      "similarity": 0.7349531650543213
+    },
+    {
+      "word": "safe",
+      "similarity": 0.7319019436836243
+    },
+    {
+      "word": "wary",
+      "similarity": 0.7310101985931396
+    },
+    {
+      "word": "salty",
+      "similarity": 0.7300254702568054
+    },
+    {
+      "word": "hot",
+      "similarity": 0.7242197394371033
+    },
+    {
+      "word": "bitter",
+      "similarity": 0.7161614894866943
+    }
+  ],
+  "10": [
+    {
+      "word": "hide",
+      "similarity": 0.8294582962989807
+    },
+    {
+      "word": "dark",
+      "similarity": 0.7221196889877319
+    },
+    {
+      "word": "behind",
+      "similarity": 0.7130386829376221
+    },
+    {
+      "word": "away",
+      "similarity": 0.7022589445114136
+    },
+    {
+      "word": "escape",
+      "similarity": 0.6998565793037415
+    },
+    {
+      "word": "transparent",
+      "similarity": 0.6978949904441833
+    },
+    {
+      "word": "dim",
+      "similarity": 0.6975436806678772
+    },
+    {
+      "word": "deep",
+      "similarity": 0.6966099739074707
+    },
+    {
+      "word": "darkness",
+      "similarity": 0.69240403175354
+    },
+    {
+      "word": "shadow",
+      "similarity": 0.6923974752426147
+    }
+  ],
+  "11": [
+    {
+      "word": "moving",
+      "similarity": 0.9999995827674866
+    },
+    {
+      "word": "move",
+      "similarity": 0.8938162326812744
+    },
+    {
+      "word": "push",
+      "similarity": 0.7356070280075073
+    },
+    {
+      "word": "change",
+      "similarity": 0.7291461229324341
+    },
+    {
+      "word": "outside",
+      "similarity": 0.7280824780464172
+    },
+    {
+      "word": "around",
+      "similarity": 0.7190935015678406
+    },
+    {
+      "word": "away",
+      "similarity": 0.7170950174331665
+    },
+    {
+      "word": "new",
+      "similarity": 0.7108564972877502
+    },
+    {
+      "word": "forward",
+      "similarity": 0.7011477947235107
+    },
+    {
+      "word": "flee",
+      "similarity": 0.6966715455055237
+    }
+  ],
+  "12": [
+    {
+      "word": "approach",
+      "similarity": 1.0000004768371582
+    },
+    {
+      "word": "toward",
+      "similarity": 0.7353861927986145
+    },
+    {
+      "word": "challenge",
+      "similarity": 0.7279770374298096
+    },
+    {
+      "word": "entrance",
+      "similarity": 0.7182437777519226
+    },
+    {
+      "word": "try",
+      "similarity": 0.7147217988967896
+    },
+    {
+      "word": "climb",
+      "similarity": 0.7144453525543213
+    },
+    {
+      "word": "touch",
+      "similarity": 0.7055248618125916
+    },
+    {
+      "word": "reach",
+      "similarity": 0.7051736116409302
+    },
+    {
+      "word": "push",
+      "similarity": 0.7020419836044312
+    },
+    {
+      "word": "forward",
+      "similarity": 0.7000418901443481
+    }
+  ],
+  "13": [
+    {
+      "word": "alive",
+      "similarity": 0.7956355810165405
+    },
+    {
+      "word": "strong",
+      "similarity": 0.7539768815040588
+    },
+    {
+      "word": "bold",
+      "similarity": 0.7455931901931763
+    },
+    {
+      "word": "healthy",
+      "similarity": 0.7449897527694702
+    },
+    {
+      "word": "full",
+      "similarity": 0.7365015745162964
+    },
+    {
+      "word": "wet",
+      "similarity": 0.7351413369178772
+    },
+    {
+      "word": "fast",
+      "similarity": 0.7335687875747681
+    },
+    {
+      "word": "bright",
+      "similarity": 0.733473002910614
+    },
+    {
+      "word": "loose",
+      "similarity": 0.7327480316162109
+    },
+    {
+      "word": "hot",
+      "similarity": 0.7302752733230591
+    }
+  ],
+  "14": [
+    {
+      "word": "familiar",
+      "similarity": 1.0
+    },
+    {
+      "word": "match",
+      "similarity": 0.7272959351539612
+    },
+    {
+      "word": "strange",
+      "similarity": 0.7257874011993408
+    },
+    {
+      "word": "warm",
+      "similarity": 0.7173495888710022
+    },
+    {
+      "word": "know",
+      "similarity": 0.7145742774009705
+    },
+    {
+      "word": "same",
+      "similarity": 0.7117628455162048
+    },
+    {
+      "word": "enemy",
+      "similarity": 0.7086229920387268
+    },
+    {
+      "word": "whole",
+      "similarity": 0.7051044702529907
+    },
+    {
+      "word": "hollow",
+      "similarity": 0.7018349766731262
+    },
+    {
+      "word": "flesh",
+      "similarity": 0.7013356685638428
+    }
+  ],
+  "15": [
+    {
+      "word": "many",
+      "similarity": 1.0000004768371582
+    },
+    {
+      "word": "few",
+      "similarity": 0.7638464570045471
+    },
+    {
+      "word": "some",
+      "similarity": 0.7275938987731934
+    },
+    {
+      "word": "more",
+      "similarity": 0.711010217666626
+    },
+    {
+      "word": "thick",
+      "similarity": 0.6929386258125305
+    },
+    {
+      "word": "soon",
+      "similarity": 0.6902492046356201
+    },
+    {
+      "word": "strong",
+      "similarity": 0.6848586797714233
+    },
+    {
+      "word": "there",
+      "similarity": 0.6827576756477356
+    },
+    {
+      "word": "familiar",
+      "similarity": 0.6816478371620178
+    },
+    {
+      "word": "long",
+      "similarity": 0.680984377861023
+    }
+  ],
+  "16": [
+    {
+      "word": "now",
+      "similarity": 1.0
+    },
+    {
+      "word": "here",
+      "similarity": 0.8364313244819641
+    },
+    {
+      "word": "soon",
+      "similarity": 0.8128989934921265
+    },
+    {
+      "word": "current",
+      "similarity": 0.8076384663581848
+    },
+    {
+      "word": "there",
+      "similarity": 0.7685728073120117
+    },
+    {
+      "word": "alive",
+      "similarity": 0.7558377981185913
+    },
+    {
+      "word": "time",
+      "similarity": 0.7474980354309082
+    },
+    {
+      "word": "open",
+      "similarity": 0.7382539510726929
+    },
+    {
+      "word": "still",
+      "similarity": 0.7354217171669006
+    },
+    {
+      "word": "see",
+      "similarity": 0.7346024513244629
+    }
+  ],
+  "17": [
+    {
+      "word": "animal",
+      "similarity": 1.0000001192092896
+    },
+    {
+      "word": "whale",
+      "similarity": 0.8021358251571655
+    },
+    {
+      "word": "fish",
+      "similarity": 0.7790904641151428
+    },
+    {
+      "word": "shark",
+      "similarity": 0.7746878862380981
+    },
+    {
+      "word": "meat",
+      "similarity": 0.7705800533294678
+    },
+    {
+      "word": "plant",
+      "similarity": 0.7703874111175537
+    },
+    {
+      "word": "muscle",
+      "similarity": 0.7615635395050049
+    },
+    {
+      "word": "egg",
+      "similarity": 0.7594549059867859
+    },
+    {
+      "word": "red",
+      "similarity": 0.7581504583358765
+    },
+    {
+      "word": "object",
+      "similarity": 0.7567119598388672
+    }
+  ],
+  "18": [
+    {
+      "word": "whole",
+      "similarity": 1.0000001192092896
+    },
+    {
+      "word": "full",
+      "similarity": 0.8099686503410339
+    },
+    {
+      "word": "flesh",
+      "similarity": 0.7390852570533752
+    },
+    {
+      "word": "body",
+      "similarity": 0.7306530475616455
+    },
+    {
+      "word": "healthy",
+      "similarity": 0.7273997068405151
+    },
+    {
+      "word": "clear",
+      "similarity": 0.7267971634864807
+    },
+    {
+      "word": "all",
+      "similarity": 0.7257436513900757
+    },
+    {
+      "word": "piece",
+      "similarity": 0.7251574397087097
+    },
+    {
+      "word": "fresh",
+      "similarity": 0.7244259119033813
+    },
+    {
+      "word": "center",
+      "similarity": 0.7229354977607727
+    }
+  ],
+  "19": [
+    {
+      "word": "thick",
+      "similarity": 0.8620072603225708
+    },
+    {
+      "word": "full",
+      "similarity": 0.7928071022033691
+    },
+    {
+      "word": "deep",
+      "similarity": 0.7864975333213806
+    },
+    {
+      "word": "heavy",
+      "similarity": 0.7848870158195496
+    },
+    {
+      "word": "hard",
+      "similarity": 0.7746796607971191
+    },
+    {
+      "word": "huge",
+      "similarity": 0.7735385298728943
+    },
+    {
+      "word": "strong",
+      "similarity": 0.7511793971061707
+    },
+    {
+      "word": "bold",
+      "similarity": 0.7511241436004639
+    },
+    {
+      "word": "big",
+      "similarity": 0.744451642036438
+    },
+    {
+      "word": "thin",
+      "similarity": 0.7364953756332397
+    }
+  ]
+}
