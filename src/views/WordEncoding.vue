@@ -18,7 +18,7 @@ const error = ref('')
 
 onMounted(async () => {
   try {
-    const response = await fetch('/word-encoding.json')
+    const response = await fetch('./word-encoding.json')
     if (!response.ok) {
       throw new Error('Failed to load word encoding data')
     }

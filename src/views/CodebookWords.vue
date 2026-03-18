@@ -15,7 +15,7 @@ const expandedClusters = ref<Set<string>>(new Set())
 
 onMounted(async () => {
   try {
-    const response = await fetch('/codebook-words.json')
+    const response = await fetch('./codebook-words.json')
     if (!response.ok) {
       throw new Error('Failed to load codebook words data')
     }

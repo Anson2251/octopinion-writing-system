@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createMemoryHistory } from 'vue-router'
 import ConlangDemo from '../views/ConlangDemo.vue'
 import WordEncoding from '../views/WordEncoding.vue'
 import CodebookWords from '../views/CodebookWords.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createMemoryHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
