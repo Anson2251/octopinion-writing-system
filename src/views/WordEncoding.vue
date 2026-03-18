@@ -32,20 +32,26 @@ onMounted(async () => {
 
 // Parse encoding into syllables, handling negative markers
 function parseEncoding(encoding: string): { syllable: string; isNegative: boolean }[] {
-  const parts = encoding.split('--')
-  const result: { syllable: string; isNegative: boolean }[] = []
+  const parts = encoding.split('-');
+  const result: { syllable: string; isNegative: boolean }[] = [];
 
-  parts.forEach((part, index) => {
-    const syllables = part.split('-').filter(s => s.trim())
-    syllables.forEach(syllable => {
+  let nextIsNegative = false;
+
+  for (const part of parts) {
+    if (part === '') {
+      // An empty part means the following token should be negative.
+      nextIsNegative = true;
+    } else {
+      // This part is a syllable like "S17".
       result.push({
-        syllable: syllable.trim(),
-        isNegative: index > 0 // All parts after -- are negative
-      })
-    })
-  })
+        syllable: part,
+        isNegative: nextIsNegative,
+      });
+      nextIsNegative = false; // Reset after consuming a token.
+    }
+  }
 
-  return result
+  return result;
 }
 
 const filteredVocabulary = computed(() => {
