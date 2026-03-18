@@ -1,0 +1,1991 @@
+{
+  "vocabulary": {
+    "arm": "S17-S12-S13--S17-S7-S7",
+    "sucker": "S5-S7-S17--S5-S9-S10",
+    "beak": "S17-S2-S12--S17-S4-S7",
+    "eye": "S17-S12-S4-S2-S7--S17",
+    "skin": "S17-S18-S9-S12--S17-S10",
+    "mantle": "S18-S6-S17--S18-S12--S18",
+    "siphon": "S17-S6-S5--S17-S2--S17",
+    "ink": "S4-S17-S12-S6-S11--S4",
+    "body": "S18-S7-S17-S13-S9--S18",
+    "head": "S7-S19-S17-S18--S7--S7",
+    "brain": "S17-S18-S3-S7--S17--S17",
+    "blood": "S17-S18-S9-S19--S17-S5",
+    "heart": "S17-S18-S3-S9--S17-S12",
+    "mouth": "S17-S18-S2-S7--S17-S0",
+    "tongue": "S17-S18-S5-S7--S17--S17",
+    "muscle": "S17-S0-S13-S18-S11-S2",
+    "egg": "S17-S18-S4-S12-S10--S18",
+    "venom": "S9-S16-S7-S12--S9-S17",
+    "slime": "S19-S7-S9-S17--S19--S19",
+    "flesh": "S18-S17-S19-S7-S9--S18",
+    "crawl": "S11-S10-S12-S5--S11-S5",
+    "swim": "S5-S12-S7-S11--S5-S3",
+    "jet": "S17-S5-S12-S2--S17-S11",
+    "squeeze": "S19-S12-S2-S17--S19--S19",
+    "grip": "S12-S1-S5-S7--S12-S10",
+    "pull": "S11-S4-S7-S0--S11--S11",
+    "push": "S11-S12-S19-S5-S0--S11",
+    "stretch": "S11-S5-S7-S3--S11-S18",
+    "coil": "S6-S5-S17-S7--S6-S12",
+    "wrap": "S6-S12-S1-S15--S6-S4",
+    "reach": "S12-S2-S1-S10--S0--S0",
+    "flee": "S5-S11-S10-S7--S5-S12",
+    "chase": "S5-S10-S12-S17--S0-S11",
+    "hide": "S10-S10-S12-S7-S5--S0",
+    "burrow": "S3-S6-S17--S3-S10--S3",
+    "dig": "S3-S12-S11-S14-S10--S3",
+    "climb": "S12-S5-S13-S10--S12-S7",
+    "drift": "S11-S10-S12-S7--S11-S5",
+    "sink": "S3-S11-S7-S12--S3--S3",
+    "rise": "S12-S8-S7-S19--S12-S10",
+    "float": "S13-S3-S16--S13-S17-S10",
+    "glide": "S5-S10-S12--S5-S11-S17",
+    "twist": "S5-S10-S12-S7--S5--S5",
+    "turn": "S16-S12-S4-S6--S16-S7",
+    "shrink": "S16-S7-S19--S16-S11-S10",
+    "expand": "S4-S12-S6-S11--S4-S7",
+    "release": "S16-S12-S10-S11--S16-S19",
+    "eject": "S5-S6-S11-S7--S5--S5",
+    "spray": "S5-S12-S2-S17--S5--S5",
+    "see": "S16-S4-S15-S2-S12--S16",
+    "taste": "S5-S18-S14--S5-S17-S12",
+    "touch": "S2-S12-S14-S13--S2-S9",
+    "feel": "S3-S14-S16-S12--S3--S3",
+    "sense": "S19-S7-S12-S16--S19--S19",
+    "watch": "S16-S10-S12-S17--S16-S5",
+    "notice": "S11-S2-S10--S11-S7-S6",
+    "pain": "S9-S16-S17-S12--S9-S7",
+    "pressure": "S19-S16-S12-S9--S19-S6",
+    "vibration": "S11-S12-S9-S10--S11--S11",
+    "shadow": "S10-S17-S14-S12--S10-S16",
+    "glow": "S4-S10-S12-S16--S0-S14",
+    "shimmer": "S4-S7-S10-S11--S4-S16",
+    "flash": "S5-S17-S10-S4--S5-S7",
+    "dim": "S4-S10-S2-S12-S14--S8",
+    "bright": "S4-S4-S4-S4-S4",
+    "blur": "S4-S19-S7-S12--S4-S5",
+    "sharp": "S4-S0-S5-S18-S12--S4",
+    "bitter": "S9-S14-S0-S16-S19--S9",
+    "salty": "S9-S16-S0-S4-S14--S9",
+    "color": "S4-S17-S12-S6-S16--S9",
+    "red": "S17-S4-S0-S6-S4--S17",
+    "white": "S4-S17-S6-S18--S4-S0",
+    "brown": "S4-S17-S19-S16--S4-S7",
+    "black": "S17-S4-S18-S10--S17-S5",
+    "blue": "S4-S17-S16-S6--S4-S7",
+    "green": "S4-S17-S18-S1-S11--S4",
+    "yellow": "S4-S17-S16-S9--S8-S6",
+    "pale": "S4-S19-S14-S10--S4-S17",
+    "dark": "S4-S3-S0-S10-S10-S9",
+    "stripe": "S4-S7-S11-S12--S4-S10",
+    "spot": "S2-S4-S10-S17--S2-S7",
+    "pattern": "S14-S12-S17--S14-S10-S7",
+    "change": "S11-S4-S12-S7-S18--S11",
+    "match": "S14-S16-S12-S4-S0--S14",
+    "blend": "S18-S19-S12-S5--S18-S11",
+    "mimic": "S14-S7-S10--S14-S5-S2",
+    "texture": "S19-S12-S14-S17--S19-S10",
+    "smooth": "S5-S18-S11-S19-S12--S5",
+    "rough": "S0-S14-S9-S17-S2-S4",
+    "water": "S17-S11-S18-S16--S17-S9",
+    "salt": "S5-S18-S9-S7--S5--S5",
+    "current": "S16-S13-S7-S11-S8-S12",
+    "wave": "S17-S2-S12-S3--S17--S17",
+    "tide": "S3-S17-S11--S3-S7-S2",
+    "depth": "S3-S3-S12-S10--S0-S7",
+    "surface": "S18-S12-S9-S10--S18-S17",
+    "bottom": "S3-S18-S17-S9--S19--S3",
+    "sand": "S17-S16-S0-S10--S17--S17",
+    "mud": "S0-S14-S17-S6--S0--S0",
+    "rock": "S17-S0-S16-S5--S17-S11",
+    "stone": "S17-S0-S2-S10--S17-S11",
+    "reef": "S4-S10-S12--S4-S7--S4",
+    "coral": "S4-S17-S7--S4-S0-S10",
+    "cave": "S17-S10-S3--S17-S6-S6",
+    "crevice": "S10-S2-S9--S10-S18-S6",
+    "hole": "S3-S17-S10-S12--S3-S5",
+    "ledge": "S10-S12-S9--S10-S7--S10",
+    "ridge": "S19-S12-S10--S19-S17-S2",
+    "wall": "S17-S10-S7-S11--S17--S17",
+    "shelf": "S6-S7-S2--S6-S4--S6",
+    "slope": "S12-S0-S17-S9--S12--S12",
+    "trench": "S3-S6-S12-S5--S3--S3",
+    "floor": "S3-S11-S17--S3-S7-S10",
+    "peak": "S4-S12-S3-S7--S4--S4",
+    "channel": "S1-S12-S10--S1-S7-S2",
+    "pool": "S17-S13-S16--S17-S10-S3",
+    "lagoon": "S6-S4-S17--S6--S6-S2",
+    "shore": "S17-S10-S2--S17-S18-S16",
+    "kelp": "S17-S19-S4--S17-S2--S17",
+    "seaweed": "S4-S17-S12--S4-S18--S4",
+    "algae": "S17-S19-S4--S17-S12-S18",
+    "grass": "S17-S4-S11-S18--S17-S16",
+    "sponge": "S19-S17-S10--S19-S7-S6",
+    "moss": "S19-S17-S7-S10--S19--S19",
+    "plant": "S17-S4-S18-S2-S12--S4",
+    "root": "S3-S17-S5-S7--S3--S3",
+    "frond": "S19-S7-S2--S19-S6--S19",
+    "bed": "S17-S11-S6-S1--S17--S17",
+    "garden": "S17-S4-S6-S2--S17--S17",
+    "crab": "S17-S10-S1-S16--S17--S17",
+    "shrimp": "S17-S5-S10--S17-S18-S8",
+    "clam": "S17-S4-S2-S7--S17--S17",
+    "mussel": "S17-S4-S3-S2--S17-S7",
+    "snail": "S17-S7-S5--S7-S2-S6",
+    "fish": "S17-S4-S18-S12-S11--S4",
+    "worm": "S17-S10-S14-S9--S17--S17",
+    "scallop": "S17-S4-S10-S7--S17-S5",
+    "oyster": "S17-S18-S2-S10--S17--S17",
+    "lobster": "S17-S16-S10--S17-S5-S1",
+    "prawn": "S17-S4-S3--S17-S10-S13",
+    "limpet": "S17-S13-S10--S17--S17-S7",
+    "urchin": "S17-S10-S2--S17-S18--S10",
+    "barnacle": "S17-S10-S1--S17-S6--S17",
+    "krill": "S17-S4-S2--S17-S7-S0",
+    "copepod": "S17-S2-S13--S17--S2-S10",
+    "plankton": "S8-S19-S17--S8-S10-S12",
+    "meat": "S17-S18-S5-S16-S12--S17",
+    "shell": "S17-S4-S6-S12--S17--S17",
+    "food": "S17-S18-S11-S5--S17--S17",
+    "shark": "S17-S5-S10-S7--S5-S1",
+    "eel": "S17-S4-S7--S17-S2-S12",
+    "seal": "S6-S17-S12-S5--S6-S14",
+    "dolphin": "S17-S4-S10-S16--S4--S4",
+    "whale": "S17-S19-S16-S10--S19-S17",
+    "barracuda": "S17-S10-S5--S17-S12--S17",
+    "grouper": "S17-S13-S2--S17-S7-S10",
+    "ray": "S4-S17-S2-S7--S4--S4",
+    "predator": "S17-S10-S9-S5--S17-S12",
+    "enemy": "S14-S9-S17-S10-S7--S14",
+    "danger": "S9-S9-S12-S16-S17-S10",
+    "threat": "S9-S12-S10-S14--S9-S16",
+    "teeth": "S4-S17-S11--S4-S18-S7",
+    "jaw": "S17-S12-S18-S0--S17--S17",
+    "squid": "S17-S5-S7-S10--S17--S17",
+    "cuttlefish": "S17-S10-S2--S10-S8-S12",
+    "nautilus": "S17-S5-S7--S17-S6-S10",
+    "jellyfish": "S17-S4-S7-S10--S4--S17",
+    "starfish": "S17-S4-S7--S17-S10-S12",
+    "anemone": "S17-S7-S4--S17-S14-S13",
+    "sea cucumber": "S17-S4--S17-S10-S2-S7",
+    "turtle": "S17-S13-S10-S7--S13-S1",
+    "seahorse": "S17-S13--S13-S15-S10-S7",
+    "octopus": "S17-S8-S6-S2--S8--S17",
+    "hatchling": "S4-S6-S17--S4-S7--S4",
+    "larva": "S17-S10-S7--S17-S12--S17",
+    "parasite": "S17-S10-S9-S14--S17--S17",
+    "mate": "S14-S5-S17-S16--S14-S19",
+    "rival": "S14-S5-S7--S14-S2-S9",
+    "den": "S6-S2-S19-S14--S6--S6",
+    "nest": "S6-S11-S7-S4--S6--S6",
+    "lair": "S6-S10-S12--S6-S7-S5",
+    "entrance": "S12-S6-S6-S14--S12-S11",
+    "exit": "S11-S6-S5-S7--S11--S11",
+    "roof": "S17-S4-S12--S17-S6-S10",
+    "door": "S17-S6-S12-S2--S17-S11",
+    "pile": "S19-S11-S12-S10--S19-S6",
+    "heap": "S19-S2-S7--S2-S11-S17",
+    "mound": "S6-S1-S17--S6-S10--S6",
+    "shelter": "S6-S17-S11-S4--S6-S2",
+    "fortress": "S6-S5-S12-S17--S6--S6",
+    "boundary": "S6-S2-S12-S18-S11--S6",
+    "territory": "S6-S11-S7--S6-S2-S12",
+    "pebble": "S4-S12-S16--S4-S0--S4",
+    "debris": "S11-S9-S18-S7--S11--S11",
+    "bone": "S17-S18-S0-S10--S17-S2",
+    "fragment": "S18-S10-S17--S18-S2-S12",
+    "piece": "S18-S17-S2-S7--S18-S11",
+    "thing": "S17-S16-S14-S7--S17-S15",
+    "object": "S17-S7-S12-S2-S6--S17",
+    "tool": "S5-S17-S7-S12--S5-S10",
+    "lid": "S6-S12-S17-S4--S6-S1",
+    "jar": "S17-S6-S2--S17-S5-S15",
+    "trap": "S10-S17-S12-S5--S10-S6",
+    "net": "S5-S17-S18-S10--S5--S5",
+    "line": "S17-S2-S12-S18--S17--S17",
+    "rope": "S17-S0-S2-S12--S17--S17",
+    "eat": "S5-S18-S12-S8--S5-S11",
+    "hunt": "S17-S5-S10-S12--S17--S17",
+    "catch": "S5-S17-S2-S12--S5-S10",
+    "crack": "S5-S10-S18-S12--S5-S7",
+    "pry": "S12-S10-S17--S12-S2-S2",
+    "drill": "S5-S12-S10--S5-S2-S17",
+    "bite": "S5-S12-S6-S17--S5-S9",
+    "swallow": "S17-S18-S5--S17-S12-S12",
+    "dissolve": "S18-S11-S9-S19--S18--S18",
+    "inject": "S3-S12-S16--S3-S9-S6",
+    "paralyze": "S9-S5-S12--S9-S18-S11",
+    "ambush": "S10-S12-S9-S17--S10--S10",
+    "stalk": "S12-S14-S5-S10--S12--S12",
+    "lure": "S12-S4-S10--S12-S17-S2",
+    "seize": "S5-S6-S12--S5-S7-S11",
+    "crush": "S19-S16-S12-S9--S19-S0",
+    "feed": "S5-S11-S12-S17--S5-S18",
+    "devour": "S14-S5-S7--S14-S19-S12",
+    "scavenge": "S5-S14-S10--S5-S17-S12",
+    "forage": "S17-S5-S12-S2--S17--S17",
+    "escape": "S10-S12-S5-S17-S11--S10",
+    "squirt": "S4-S7-S9--S4-S17-S11",
+    "cloud": "S17-S19-S11--S17-S18--S17",
+    "confuse": "S14-S9-S16-S12--S14--S14",
+    "startle": "S5-S14-S12--S5-S10-S9",
+    "detach": "S11-S6-S7-S2--S11--S11",
+    "regrow": "S13-S7-S14--S13-S12-S0",
+    "armor": "S13-S6-S12-S7--S13--S13",
+    "camouflage": "S10-S12-S4-S17--S10--S3",
+    "warn": "S9-S2-S12--S9-S4-S10",
+    "freeze": "S5-S6-S0-S17--S5-S16",
+    "fight": "S9-S16-S17-S12-S14--S9",
+    "survive": "S8-S5-S12-S7--S13-S9",
+    "clutch": "S19-S16-S6-S7--S19-S5",
+    "brood": "S14-S6-S17--S14-S7--S14",
+    "guard": "S6-S13-S17-S12--S6--S6",
+    "hatch": "S4-S6-S12-S7--S4--S4",
+    "young": "S4-S8-S2-S1--S4--S4",
+    "grow": "S8-S12-S7-S4--S8-S3",
+    "die": "S9-S7-S2-S19--S9-S0",
+    "birth": "S18-S17-S11-S7--S18--S18",
+    "mother": "S7-S17-S2-S4--S7-S1",
+    "father": "S16-S14-S9--S16-S17-S0",
+    "spawn": "S8-S7-S12--S8-S19-S14",
+    "fertile": "S4-S18-S13-S7--S4--S4",
+    "season": "S17-S16-S0--S17-S14-S10",
+    "cycle": "S17-S5-S12--S17-S7-S18",
+    "big": "S1-S1-S1-S1-S1",
+    "small": "S2-S17-S4-S6--S2-S1",
+    "long": "S1-S3-S15-S14--S1-S0",
+    "short": "S5-S2-S7-S10--S5-S18",
+    "wide": "S1-S4-S18-S12--S1-S14",
+    "narrow": "S5-S10-S12-S14-S12--S5",
+    "thick": "S19-S1-S3-S15-S0-S13",
+    "thin": "S19-S5-S18-S12-S9--S19",
+    "round": "S18-S4-S2-S6--S18-S0",
+    "flat": "S19-S18-S10-S5--S19--S19",
+    "curved": "S3-S6-S12-S4--S3--S3",
+    "pointed": "S4-S12-S6-S2--S4--S4",
+    "bulge": "S1-S6-S12-S11--S1-S4",
+    "tiny": "S4-S2-S17-S7--S4-S1",
+    "huge": "S1-S1-S19-S1-S19--S2",
+    "one": "S8-S7-S17-S12--S8-S15",
+    "two": "S8-S15-S6-S11--S8--S8",
+    "three": "S8-S15-S6-S11--S8--S8",
+    "four": "S8-S15-S6-S1--S8--S8",
+    "five": "S8-S15-S6--S8-S11-S12",
+    "six": "S8-S15-S6--S8-S1-S11",
+    "seven": "S4-S17-S15-S16--S4--S4",
+    "eight": "S4-S18-S17--S4-S12-S6",
+    "many": "S15-S15-S15-S15-S15",
+    "few": "S15-S2-S10-S16--S1--S1",
+    "none": "S16-S9-S10-S7-S12--S16",
+    "all": "S18-S5-S11-S15--S19--S14",
+    "some": "S15-S7-S6-S11--S1-S11",
+    "more": "S15-S16-S6-S18-S12--S15",
+    "less": "S2-S10-S7-S5--S2-S19",
+    "here": "S16-S2-S7-S8-S12-S18",
+    "there": "S16-S15-S10-S18-S17-S11",
+    "above": "S2-S8-S6--S2-S1-S1",
+    "below": "S3-S16-S2-S11--S0-S10",
+    "inside": "S6-S8-S2-S11-S7--S6",
+    "outside": "S11-S17-S6-S4-S2--S11",
+    "near": "S2-S2-S2-S2-S2",
+    "far": "S2-S5-S3-S14-S0--S2",
+    "between": "S2-S3-S18-S11--S2-S10",
+    "under": "S3-S2-S7-S10--S3-S6",
+    "over": "S1-S16-S6-S7-S12--S1",
+    "beside": "S2-S18-S6-S9-S15--S0",
+    "behind": "S10-S16-S2-S7--S10-S12",
+    "ahead": "S16-S4-S11-S12--S16-S6",
+    "around": "S2-S11-S6-S13-S18-S18",
+    "through": "S3-S12-S7-S5--S3-S11",
+    "across": "S18-S11-S10-S12--S18-S14",
+    "left": "S16-S4-S7-S1--S16--S16",
+    "right": "S18-S16-S12--S18-S14-S11",
+    "center": "S18-S2-S17-S4--S18-S6",
+    "now": "S16-S16-S16-S16-S16",
+    "before": "S18-S2-S6-S16--S18--S18",
+    "after": "S16-S6-S15-S11--S16-S7",
+    "soon": "S16-S2-S5-S15-S15-S5",
+    "always": "S16-S17-S4--S16-S18-S6",
+    "never": "S5-S6-S7--S5-S9--S15",
+    "again": "S16-S14-S0-S9--S16-S7",
+    "once": "S16-S18-S0-S6--S16--S16",
+    "night": "S4-S17-S16-S10--S4-S6",
+    "day": "S16-S17-S0-S11--S16-S7",
+    "dawn": "S4-S16-S7-S12--S4-S10",
+    "dusk": "S16-S10-S4-S14--S16-S4",
+    "moon": "S17-S16-S0-S18--S17--S17",
+    "sun": "S4-S17-S7-S16--S4-S12",
+    "warm": "S4-S14-S5-S6-S6-S8",
+    "cold": "S17-S0-S16-S9--S17-S2",
+    "cool": "S4-S16-S11-S17--S4-S12",
+    "hot": "S5-S4-S6-S0-S9-S8",
+    "still": "S8-S16-S0-S10--S8-S15",
+    "moving": "S11-S11-S11-S11-S11",
+    "murky": "S19-S10-S17-S16--S19--S19",
+    "clear": "S18-S4-S11-S19--S18-S12",
+    "deep": "S3-S3-S3-S3-S3",
+    "shallow": "S3-S4-S12-S10--S13-S7",
+    "fresh": "S8-S4-S19-S18-S11-S0",
+    "brackish": "S3-S4-S17--S3-S11-S6",
+    "frozen": "S0-S16-S6-S17--S0-S17",
+    "bubbly": "S4-S19-S7-S11--S4--S4",
+    "foam": "S19-S11-S17-S7--S19--S19",
+    "storm": "S17-S5-S6-S11--S17--S17",
+    "thunder": "S17-S11-S1-S9--S17--S17",
+    "light": "S4-S17-S11-S6-S2--S17",
+    "darkness": "S10-S4-S9-S12--S10-S17",
+    "rain": "S17-S16-S10-S9--S17-S11",
+    "wind": "S5-S6--S5-S11-S15-S7",
+    "surge": "S19-S5-S7-S11--S19--S0",
+    "whirlpool": "S5-S7-S6--S5--S5-S11",
+    "upwelling": "S8-S3-S11--S8-S12--S8",
+    "ice": "S0-S16-S17-S6--S0-S13",
+    "bioluminescence": "S4-S10-S12--S5-S17--S0",
+    "spark": "S4-S16-S7-S11--S4--S4",
+    "beam": "S4-S12-S10--S4-S7-S3",
+    "flicker": "S4-S10-S11-S12--S3--S0",
+    "pulse": "S5-S8-S7-S10--S5-S12",
+    "shine": "S4-S16-S7-S12--S8-S10",
+    "reflect": "S16-S7-S12-S3--S16-S4",
+    "transparent": "S4-S10-S18-S6--S4-S16",
+    "hard": "S0-S0-S0-S0-S0",
+    "soft": "S19-S17-S4-S12--S19-S0",
+    "wet": "S13-S3-S17-S6-S14--S13",
+    "dry": "S0-S16-S9-S14--S0-S18",
+    "sticky": "S19-S11-S0-S8--S19-S4",
+    "slippery": "S9-S19-S11-S12-S6--S3",
+    "loose": "S13-S18-S19-S2-S0--S13",
+    "firm": "S18-S5-S12-S17--S18--S18",
+    "jagged": "S4-S0-S9-S18--S4--S4",
+    "hollow": "S14-S3-S10-S18--S14--S14",
+    "alive": "S8-S8-S8-S8-S8",
+    "dead": "S8-S0-S17-S9-S10-S6",
+    "hungry": "S5-S8-S6-S14--S5-S11",
+    "full": "S18-S19-S13-S4-S1-S15",
+    "tired": "S4-S16-S0--S4-S7-S11",
+    "strong": "S5-S0-S1-S13-S3-S4",
+    "weak": "S9-S4-S16-S0--S9--S9",
+    "sick": "S9-S16-S18-S0-S11-S17",
+    "healthy": "S4-S18-S13-S9-S8--S4",
+    "broken": "S9-S16-S10-S18-S0--S9",
+    "whole": "S18-S18-S18-S18-S18",
+    "empty": "S18-S10-S11-S17--S18--S18",
+    "open": "S16-S6-S12-S13-S12--S16",
+    "closed": "S6-S16-S9-S11--S6-S2",
+    "safe": "S9-S18-S4-S11-S6--S9",
+    "alone": "S7-S10-S9--S7-S11-S18",
+    "other": "S7-S11-S15-S17--S7--S7",
+    "stranger": "S14-S9-S11-S7--S14-S10",
+    "kin": "S14-S17-S12-S2--S14--S14",
+    "same": "S14-S16-S7-S8--S14-S17",
+    "different": "S4-S11-S15-S0-S10--S4",
+    "approach": "S12-S12-S12-S12-S12",
+    "retreat": "S6-S12-S11-S16--S6--S6",
+    "share": "S18-S5-S10-S12--S18-S2",
+    "steal": "S5-S10-S11-S7--S5--S5",
+    "challenge": "S12-S0-S9-S8-S7--S12",
+    "submit": "S16-S12-S9-S11--S16--S16",
+    "signal": "S4-S12-S17-S11--S4-S10",
+    "display": "S16-S4-S17-S12--S16--S16",
+    "posture": "S12-S13-S6-S7--S12--S12",
+    "show": "S17-S16-S12-S10--S17-S4",
+    "darken": "S4-S19-S10-S12--S4--S1",
+    "raise": "S11-S12-S0--S11-S7-S7",
+    "flatten": "S19-S11-S12--S13-S18-S18",
+    "point": "S2-S17-S4-S12--S2--S2",
+    "beckon": "S12-S4-S6-S14--S12-S2",
+    "repel": "S5-S10-S12--S5-S6-S7",
+    "threaten": "S9-S12-S2--S9-S14-S14",
+    "fear": "S9-S14-S12-S10--S9-S7",
+    "anger": "S9-S7-S14-S11--S9--S9",
+    "calm": "S18-S5-S12-S17--S18--S18",
+    "curious": "S8-S12-S10-S9--S8-S4",
+    "wary": "S9-S14-S12-S10-S7--S9",
+    "eager": "S4-S19-S12-S7--S4-S14",
+    "restless": "S13-S14-S11-S7--S13-S9",
+    "content": "S18-S12-S19-S10--S18-S17",
+    "startled": "S9-S10-S11-S14--S9--S9",
+    "bold": "S4-S5-S19-S13-S7-S1",
+    "good": "S8-S1-S18-S4-S7--S8",
+    "bad": "S9-S0-S14-S1-S18-S4",
+    "yes": "S16-S17-S15-S14--S16--S16",
+    "no": "S9-S16-S17--S9-S10--S9",
+    "maybe": "S16-S9-S15--S16-S14-S2",
+    "want": "S16-S15-S12-S0--S16-S11",
+    "need": "S2-S0-S7-S5--S2-S11",
+    "know": "S14-S8-S2-S16--S14-S15",
+    "remember": "S16-S14-S12-S15--S16--S16",
+    "forget": "S14-S16-S9--S14-S7-S11",
+    "learn": "S12-S4-S7-S3--S12-S8",
+    "try": "S12-S5-S2-S8-S7--S12",
+    "fail": "S9-S7-S0-S12--S9-S5",
+    "succeed": "S5-S12-S7-S8--S5-S8",
+    "choose": "S4-S12-S7-S11--S4-S16",
+    "fast": "S5-S5-S5-S5-S5",
+    "slow": "S5-S3-S0-S11-S12--S5",
+    "quick": "S5-S5-S2-S4-S10-S11",
+    "heavy": "S0-S1-S19-S13-S9--S0",
+    "old": "S1-S16-S14-S9-S13--S1",
+    "new": "S11-S3-S16-S17-S4--S11",
+    "better": "S4-S16-S7-S0--S4--S4",
+    "worse": "S9-S0-S16--S13-S7-S2",
+    "enough": "S18-S16-S19-S9--S18--S18",
+    "too much": "S1-S9-S15-S18--S1-S19",
+    "strange": "S0-S14-S9-S10-S11--S0",
+    "familiar": "S14-S14-S14-S14-S14",
+    "begin": "S12-S16-S18-S7--S12-S5",
+    "end": "S16-S3-S7-S12--S16-S6",
+    "wait": "S16-S5-S10-S6--S18-S6",
+    "move": "S11-S11-S5-S12-S7-S2",
+    "stop": "S5-S16-S6--S5-S9-S2",
+    "continue": "S16-S12-S8-S5--S16--S16",
+    "number": "S17-S16-S15--S17-S11-S12",
+    "build": "S5-S12-S11-S7--S5--S5",
+    "break": "S16-S9-S18-S12--S16-S7",
+    "gather": "S16-S19-S12-S11--S16-S15",
+    "scatter": "S14-S5-S12-S10--S14--S14",
+    "mix": "S16-S19-S12-S18--S16-S4",
+    "separate": "S18-S11-S10-S6--S18-S6",
+    "fill": "S18-S19-S12-S6--S18--S18",
+    "drain": "S3-S6-S11--S3-S17-S17",
+    "rot": "S18-S9-S10--S18-S19-S14",
+    "north": "S2-S17-S18-S11--S2-S4",
+    "south": "S2-S17-S18-S11--S2--S2",
+    "up": "S8-S11-S0-S16--S8-S3",
+    "down": "S3-S11-S16-S9-S0--S3",
+    "inward": "S3-S6-S7-S12-S7--S3",
+    "outward": "S18-S6-S4-S12--S18--S18",
+    "forward": "S5-S12-S11-S7-S6--S5",
+    "backward": "S0-S6-S7--S0-S11-S11",
+    "away": "S11-S10-S14-S5-S6--S11",
+    "toward": "S2-S12-S3-S7-S11--S2",
+    "bubble": "S17-S10-S19-S2--S17--S17",
+    "sediment": "S17-S19-S12--S17-S10--S17",
+    "gravel": "S4-S17-S12--S4-S18-S11",
+    "clay": "S17-S0-S16-S12--S17--S17",
+    "wreck": "S9-S18-S17-S10--S9--S9",
+    "metal": "S17-S16-S0-S4--S17-S6",
+    "glass": "S4-S17-S18--S4-S6-S11",
+    "plastic": "S17-S4-S6-S16--S17-S9",
+    "poison": "S9-S16-S12-S14-S7--S16",
+    "waste": "S17-S18-S2--S17-S11-S12",
+    "chain": "S17-S2-S5-S12--S17--S17",
+    "anchor": "S5-S14-S12-S10--S5--S5",
+    "hulk": "S17-S1-S10-S0--S17--S17",
+    "timber": "S19-S11-S7--S19-S17-S12",
+    "carry": "S11-S7-S10-S12-S5--S11",
+    "drop": "S9-S16-S12-S10--S9-S11",
+    "hold": "S16-S6-S12-S11-S15--S16",
+    "close": "S2-S6-S12-S5--S2-S11",
+    "explore": "S12-S8-S10-S11--S12-S7",
+    "probe": "S2-S12-S17--S2-S10-S6",
+    "test": "S5-S17-S12-S7--S5--S5",
+    "drag": "S17-S11-S14-S10--S17-S5",
+    "bury": "S14-S6-S11--S14-S3-S12",
+    "second": "S16-S5-S9-S6--S16--S16",
+    "minute": "S16-S2-S5-S17--S16--S16",
+    "hour": "S16-S17-S19-S12--S16--S16",
+    "month": "S2-S7-S11--S2-S0-S17",
+    "year": "S17-S7-S11--S17--S17-S1",
+    "I": "S16-S17-S7--S16-S12-S14",
+    "myself": "S7-S16-S7-S18-S11--S2",
+    "animal": "S17-S17-S17-S17-S17",
+    "time": "S16-S17-S0-S7-S11--S16",
+    "week": "S1-S16-S11--S1-S7-S18",
+    "lifetime": "S8-S7-S3--S8-S5-S12",
+    "generation": "S8-S7-S12--S8-S1-S1"
+  },
+  "unique_words": {
+    "S17-S12-S13--S17-S7-S7": [
+      "arm"
+    ],
+    "S5-S7-S17--S5-S9-S10": [
+      "sucker"
+    ],
+    "S17-S2-S12--S17-S4-S7": [
+      "beak"
+    ],
+    "S17-S12-S4-S2-S7--S17": [
+      "eye"
+    ],
+    "S17-S18-S9-S12--S17-S10": [
+      "skin"
+    ],
+    "S18-S6-S17--S18-S12--S18": [
+      "mantle"
+    ],
+    "S17-S6-S5--S17-S2--S17": [
+      "siphon"
+    ],
+    "S4-S17-S12-S6-S11--S4": [
+      "ink"
+    ],
+    "S18-S7-S17-S13-S9--S18": [
+      "body"
+    ],
+    "S7-S19-S17-S18--S7--S7": [
+      "head"
+    ],
+    "S17-S18-S3-S7--S17--S17": [
+      "brain"
+    ],
+    "S17-S18-S9-S19--S17-S5": [
+      "blood"
+    ],
+    "S17-S18-S3-S9--S17-S12": [
+      "heart"
+    ],
+    "S17-S18-S2-S7--S17-S0": [
+      "mouth"
+    ],
+    "S17-S18-S5-S7--S17--S17": [
+      "tongue"
+    ],
+    "S17-S0-S13-S18-S11-S2": [
+      "muscle"
+    ],
+    "S17-S18-S4-S12-S10--S18": [
+      "egg"
+    ],
+    "S9-S16-S7-S12--S9-S17": [
+      "venom"
+    ],
+    "S19-S7-S9-S17--S19--S19": [
+      "slime"
+    ],
+    "S18-S17-S19-S7-S9--S18": [
+      "flesh"
+    ],
+    "S11-S10-S12-S5--S11-S5": [
+      "crawl"
+    ],
+    "S5-S12-S7-S11--S5-S3": [
+      "swim"
+    ],
+    "S17-S5-S12-S2--S17-S11": [
+      "jet"
+    ],
+    "S19-S12-S2-S17--S19--S19": [
+      "squeeze"
+    ],
+    "S12-S1-S5-S7--S12-S10": [
+      "grip"
+    ],
+    "S11-S4-S7-S0--S11--S11": [
+      "pull"
+    ],
+    "S11-S12-S19-S5-S0--S11": [
+      "push"
+    ],
+    "S11-S5-S7-S3--S11-S18": [
+      "stretch"
+    ],
+    "S6-S5-S17-S7--S6-S12": [
+      "coil"
+    ],
+    "S6-S12-S1-S15--S6-S4": [
+      "wrap"
+    ],
+    "S12-S2-S1-S10--S0--S0": [
+      "reach"
+    ],
+    "S5-S11-S10-S7--S5-S12": [
+      "flee"
+    ],
+    "S5-S10-S12-S17--S0-S11": [
+      "chase"
+    ],
+    "S10-S10-S12-S7-S5--S0": [
+      "hide"
+    ],
+    "S3-S6-S17--S3-S10--S3": [
+      "burrow"
+    ],
+    "S3-S12-S11-S14-S10--S3": [
+      "dig"
+    ],
+    "S12-S5-S13-S10--S12-S7": [
+      "climb"
+    ],
+    "S11-S10-S12-S7--S11-S5": [
+      "drift"
+    ],
+    "S3-S11-S7-S12--S3--S3": [
+      "sink"
+    ],
+    "S12-S8-S7-S19--S12-S10": [
+      "rise"
+    ],
+    "S13-S3-S16--S13-S17-S10": [
+      "float"
+    ],
+    "S5-S10-S12--S5-S11-S17": [
+      "glide"
+    ],
+    "S5-S10-S12-S7--S5--S5": [
+      "twist"
+    ],
+    "S16-S12-S4-S6--S16-S7": [
+      "turn"
+    ],
+    "S16-S7-S19--S16-S11-S10": [
+      "shrink"
+    ],
+    "S4-S12-S6-S11--S4-S7": [
+      "expand"
+    ],
+    "S16-S12-S10-S11--S16-S19": [
+      "release"
+    ],
+    "S5-S6-S11-S7--S5--S5": [
+      "eject"
+    ],
+    "S5-S12-S2-S17--S5--S5": [
+      "spray"
+    ],
+    "S16-S4-S15-S2-S12--S16": [
+      "see"
+    ],
+    "S5-S18-S14--S5-S17-S12": [
+      "taste"
+    ],
+    "S2-S12-S14-S13--S2-S9": [
+      "touch"
+    ],
+    "S3-S14-S16-S12--S3--S3": [
+      "feel"
+    ],
+    "S19-S7-S12-S16--S19--S19": [
+      "sense"
+    ],
+    "S16-S10-S12-S17--S16-S5": [
+      "watch"
+    ],
+    "S11-S2-S10--S11-S7-S6": [
+      "notice"
+    ],
+    "S9-S16-S17-S12--S9-S7": [
+      "pain"
+    ],
+    "S19-S16-S12-S9--S19-S6": [
+      "pressure"
+    ],
+    "S11-S12-S9-S10--S11--S11": [
+      "vibration"
+    ],
+    "S10-S17-S14-S12--S10-S16": [
+      "shadow"
+    ],
+    "S4-S10-S12-S16--S0-S14": [
+      "glow"
+    ],
+    "S4-S7-S10-S11--S4-S16": [
+      "shimmer"
+    ],
+    "S5-S17-S10-S4--S5-S7": [
+      "flash"
+    ],
+    "S4-S10-S2-S12-S14--S8": [
+      "dim"
+    ],
+    "S4-S4-S4-S4-S4": [
+      "bright"
+    ],
+    "S4-S19-S7-S12--S4-S5": [
+      "blur"
+    ],
+    "S4-S0-S5-S18-S12--S4": [
+      "sharp"
+    ],
+    "S9-S14-S0-S16-S19--S9": [
+      "bitter"
+    ],
+    "S9-S16-S0-S4-S14--S9": [
+      "salty"
+    ],
+    "S4-S17-S12-S6-S16--S9": [
+      "color"
+    ],
+    "S17-S4-S0-S6-S4--S17": [
+      "red"
+    ],
+    "S4-S17-S6-S18--S4-S0": [
+      "white"
+    ],
+    "S4-S17-S19-S16--S4-S7": [
+      "brown"
+    ],
+    "S17-S4-S18-S10--S17-S5": [
+      "black"
+    ],
+    "S4-S17-S16-S6--S4-S7": [
+      "blue"
+    ],
+    "S4-S17-S18-S1-S11--S4": [
+      "green"
+    ],
+    "S4-S17-S16-S9--S8-S6": [
+      "yellow"
+    ],
+    "S4-S19-S14-S10--S4-S17": [
+      "pale"
+    ],
+    "S4-S3-S0-S10-S10-S9": [
+      "dark"
+    ],
+    "S4-S7-S11-S12--S4-S10": [
+      "stripe"
+    ],
+    "S2-S4-S10-S17--S2-S7": [
+      "spot"
+    ],
+    "S14-S12-S17--S14-S10-S7": [
+      "pattern"
+    ],
+    "S11-S4-S12-S7-S18--S11": [
+      "change"
+    ],
+    "S14-S16-S12-S4-S0--S14": [
+      "match"
+    ],
+    "S18-S19-S12-S5--S18-S11": [
+      "blend"
+    ],
+    "S14-S7-S10--S14-S5-S2": [
+      "mimic"
+    ],
+    "S19-S12-S14-S17--S19-S10": [
+      "texture"
+    ],
+    "S5-S18-S11-S19-S12--S5": [
+      "smooth"
+    ],
+    "S0-S14-S9-S17-S2-S4": [
+      "rough"
+    ],
+    "S17-S11-S18-S16--S17-S9": [
+      "water"
+    ],
+    "S5-S18-S9-S7--S5--S5": [
+      "salt"
+    ],
+    "S16-S13-S7-S11-S8-S12": [
+      "current"
+    ],
+    "S17-S2-S12-S3--S17--S17": [
+      "wave"
+    ],
+    "S3-S17-S11--S3-S7-S2": [
+      "tide"
+    ],
+    "S3-S3-S12-S10--S0-S7": [
+      "depth"
+    ],
+    "S18-S12-S9-S10--S18-S17": [
+      "surface"
+    ],
+    "S3-S18-S17-S9--S19--S3": [
+      "bottom"
+    ],
+    "S17-S16-S0-S10--S17--S17": [
+      "sand"
+    ],
+    "S0-S14-S17-S6--S0--S0": [
+      "mud"
+    ],
+    "S17-S0-S16-S5--S17-S11": [
+      "rock"
+    ],
+    "S17-S0-S2-S10--S17-S11": [
+      "stone"
+    ],
+    "S4-S10-S12--S4-S7--S4": [
+      "reef"
+    ],
+    "S4-S17-S7--S4-S0-S10": [
+      "coral"
+    ],
+    "S17-S10-S3--S17-S6-S6": [
+      "cave"
+    ],
+    "S10-S2-S9--S10-S18-S6": [
+      "crevice"
+    ],
+    "S3-S17-S10-S12--S3-S5": [
+      "hole"
+    ],
+    "S10-S12-S9--S10-S7--S10": [
+      "ledge"
+    ],
+    "S19-S12-S10--S19-S17-S2": [
+      "ridge"
+    ],
+    "S17-S10-S7-S11--S17--S17": [
+      "wall"
+    ],
+    "S6-S7-S2--S6-S4--S6": [
+      "shelf"
+    ],
+    "S12-S0-S17-S9--S12--S12": [
+      "slope"
+    ],
+    "S3-S6-S12-S5--S3--S3": [
+      "trench"
+    ],
+    "S3-S11-S17--S3-S7-S10": [
+      "floor"
+    ],
+    "S4-S12-S3-S7--S4--S4": [
+      "peak"
+    ],
+    "S1-S12-S10--S1-S7-S2": [
+      "channel"
+    ],
+    "S17-S13-S16--S17-S10-S3": [
+      "pool"
+    ],
+    "S6-S4-S17--S6--S6-S2": [
+      "lagoon"
+    ],
+    "S17-S10-S2--S17-S18-S16": [
+      "shore"
+    ],
+    "S17-S19-S4--S17-S2--S17": [
+      "kelp"
+    ],
+    "S4-S17-S12--S4-S18--S4": [
+      "seaweed"
+    ],
+    "S17-S19-S4--S17-S12-S18": [
+      "algae"
+    ],
+    "S17-S4-S11-S18--S17-S16": [
+      "grass"
+    ],
+    "S19-S17-S10--S19-S7-S6": [
+      "sponge"
+    ],
+    "S19-S17-S7-S10--S19--S19": [
+      "moss"
+    ],
+    "S17-S4-S18-S2-S12--S4": [
+      "plant"
+    ],
+    "S3-S17-S5-S7--S3--S3": [
+      "root"
+    ],
+    "S19-S7-S2--S19-S6--S19": [
+      "frond"
+    ],
+    "S17-S11-S6-S1--S17--S17": [
+      "bed"
+    ],
+    "S17-S4-S6-S2--S17--S17": [
+      "garden"
+    ],
+    "S17-S10-S1-S16--S17--S17": [
+      "crab"
+    ],
+    "S17-S5-S10--S17-S18-S8": [
+      "shrimp"
+    ],
+    "S17-S4-S2-S7--S17--S17": [
+      "clam"
+    ],
+    "S17-S4-S3-S2--S17-S7": [
+      "mussel"
+    ],
+    "S17-S7-S5--S7-S2-S6": [
+      "snail"
+    ],
+    "S17-S4-S18-S12-S11--S4": [
+      "fish"
+    ],
+    "S17-S10-S14-S9--S17--S17": [
+      "worm"
+    ],
+    "S17-S4-S10-S7--S17-S5": [
+      "scallop"
+    ],
+    "S17-S18-S2-S10--S17--S17": [
+      "oyster"
+    ],
+    "S17-S16-S10--S17-S5-S1": [
+      "lobster"
+    ],
+    "S17-S4-S3--S17-S10-S13": [
+      "prawn"
+    ],
+    "S17-S13-S10--S17--S17-S7": [
+      "limpet"
+    ],
+    "S17-S10-S2--S17-S18--S10": [
+      "urchin"
+    ],
+    "S17-S10-S1--S17-S6--S17": [
+      "barnacle"
+    ],
+    "S17-S4-S2--S17-S7-S0": [
+      "krill"
+    ],
+    "S17-S2-S13--S17--S2-S10": [
+      "copepod"
+    ],
+    "S8-S19-S17--S8-S10-S12": [
+      "plankton"
+    ],
+    "S17-S18-S5-S16-S12--S17": [
+      "meat"
+    ],
+    "S17-S4-S6-S12--S17--S17": [
+      "shell"
+    ],
+    "S17-S18-S11-S5--S17--S17": [
+      "food"
+    ],
+    "S17-S5-S10-S7--S5-S1": [
+      "shark"
+    ],
+    "S17-S4-S7--S17-S2-S12": [
+      "eel"
+    ],
+    "S6-S17-S12-S5--S6-S14": [
+      "seal"
+    ],
+    "S17-S4-S10-S16--S4--S4": [
+      "dolphin"
+    ],
+    "S17-S19-S16-S10--S19-S17": [
+      "whale"
+    ],
+    "S17-S10-S5--S17-S12--S17": [
+      "barracuda"
+    ],
+    "S17-S13-S2--S17-S7-S10": [
+      "grouper"
+    ],
+    "S4-S17-S2-S7--S4--S4": [
+      "ray"
+    ],
+    "S17-S10-S9-S5--S17-S12": [
+      "predator"
+    ],
+    "S14-S9-S17-S10-S7--S14": [
+      "enemy"
+    ],
+    "S9-S9-S12-S16-S17-S10": [
+      "danger"
+    ],
+    "S9-S12-S10-S14--S9-S16": [
+      "threat"
+    ],
+    "S4-S17-S11--S4-S18-S7": [
+      "teeth"
+    ],
+    "S17-S12-S18-S0--S17--S17": [
+      "jaw"
+    ],
+    "S17-S5-S7-S10--S17--S17": [
+      "squid"
+    ],
+    "S17-S10-S2--S10-S8-S12": [
+      "cuttlefish"
+    ],
+    "S17-S5-S7--S17-S6-S10": [
+      "nautilus"
+    ],
+    "S17-S4-S7-S10--S4--S17": [
+      "jellyfish"
+    ],
+    "S17-S4-S7--S17-S10-S12": [
+      "starfish"
+    ],
+    "S17-S7-S4--S17-S14-S13": [
+      "anemone"
+    ],
+    "S17-S4--S17-S10-S2-S7": [
+      "sea cucumber"
+    ],
+    "S17-S13-S10-S7--S13-S1": [
+      "turtle"
+    ],
+    "S17-S13--S13-S15-S10-S7": [
+      "seahorse"
+    ],
+    "S17-S8-S6-S2--S8--S17": [
+      "octopus"
+    ],
+    "S4-S6-S17--S4-S7--S4": [
+      "hatchling"
+    ],
+    "S17-S10-S7--S17-S12--S17": [
+      "larva"
+    ],
+    "S17-S10-S9-S14--S17--S17": [
+      "parasite"
+    ],
+    "S14-S5-S17-S16--S14-S19": [
+      "mate"
+    ],
+    "S14-S5-S7--S14-S2-S9": [
+      "rival"
+    ],
+    "S6-S2-S19-S14--S6--S6": [
+      "den"
+    ],
+    "S6-S11-S7-S4--S6--S6": [
+      "nest"
+    ],
+    "S6-S10-S12--S6-S7-S5": [
+      "lair"
+    ],
+    "S12-S6-S6-S14--S12-S11": [
+      "entrance"
+    ],
+    "S11-S6-S5-S7--S11--S11": [
+      "exit"
+    ],
+    "S17-S4-S12--S17-S6-S10": [
+      "roof"
+    ],
+    "S17-S6-S12-S2--S17-S11": [
+      "door"
+    ],
+    "S19-S11-S12-S10--S19-S6": [
+      "pile"
+    ],
+    "S19-S2-S7--S2-S11-S17": [
+      "heap"
+    ],
+    "S6-S1-S17--S6-S10--S6": [
+      "mound"
+    ],
+    "S6-S17-S11-S4--S6-S2": [
+      "shelter"
+    ],
+    "S6-S5-S12-S17--S6--S6": [
+      "fortress"
+    ],
+    "S6-S2-S12-S18-S11--S6": [
+      "boundary"
+    ],
+    "S6-S11-S7--S6-S2-S12": [
+      "territory"
+    ],
+    "S4-S12-S16--S4-S0--S4": [
+      "pebble"
+    ],
+    "S11-S9-S18-S7--S11--S11": [
+      "debris"
+    ],
+    "S17-S18-S0-S10--S17-S2": [
+      "bone"
+    ],
+    "S18-S10-S17--S18-S2-S12": [
+      "fragment"
+    ],
+    "S18-S17-S2-S7--S18-S11": [
+      "piece"
+    ],
+    "S17-S16-S14-S7--S17-S15": [
+      "thing"
+    ],
+    "S17-S7-S12-S2-S6--S17": [
+      "object"
+    ],
+    "S5-S17-S7-S12--S5-S10": [
+      "tool"
+    ],
+    "S6-S12-S17-S4--S6-S1": [
+      "lid"
+    ],
+    "S17-S6-S2--S17-S5-S15": [
+      "jar"
+    ],
+    "S10-S17-S12-S5--S10-S6": [
+      "trap"
+    ],
+    "S5-S17-S18-S10--S5--S5": [
+      "net"
+    ],
+    "S17-S2-S12-S18--S17--S17": [
+      "line"
+    ],
+    "S17-S0-S2-S12--S17--S17": [
+      "rope"
+    ],
+    "S5-S18-S12-S8--S5-S11": [
+      "eat"
+    ],
+    "S17-S5-S10-S12--S17--S17": [
+      "hunt"
+    ],
+    "S5-S17-S2-S12--S5-S10": [
+      "catch"
+    ],
+    "S5-S10-S18-S12--S5-S7": [
+      "crack"
+    ],
+    "S12-S10-S17--S12-S2-S2": [
+      "pry"
+    ],
+    "S5-S12-S10--S5-S2-S17": [
+      "drill"
+    ],
+    "S5-S12-S6-S17--S5-S9": [
+      "bite"
+    ],
+    "S17-S18-S5--S17-S12-S12": [
+      "swallow"
+    ],
+    "S18-S11-S9-S19--S18--S18": [
+      "dissolve"
+    ],
+    "S3-S12-S16--S3-S9-S6": [
+      "inject"
+    ],
+    "S9-S5-S12--S9-S18-S11": [
+      "paralyze"
+    ],
+    "S10-S12-S9-S17--S10--S10": [
+      "ambush"
+    ],
+    "S12-S14-S5-S10--S12--S12": [
+      "stalk"
+    ],
+    "S12-S4-S10--S12-S17-S2": [
+      "lure"
+    ],
+    "S5-S6-S12--S5-S7-S11": [
+      "seize"
+    ],
+    "S19-S16-S12-S9--S19-S0": [
+      "crush"
+    ],
+    "S5-S11-S12-S17--S5-S18": [
+      "feed"
+    ],
+    "S14-S5-S7--S14-S19-S12": [
+      "devour"
+    ],
+    "S5-S14-S10--S5-S17-S12": [
+      "scavenge"
+    ],
+    "S17-S5-S12-S2--S17--S17": [
+      "forage"
+    ],
+    "S10-S12-S5-S17-S11--S10": [
+      "escape"
+    ],
+    "S4-S7-S9--S4-S17-S11": [
+      "squirt"
+    ],
+    "S17-S19-S11--S17-S18--S17": [
+      "cloud"
+    ],
+    "S14-S9-S16-S12--S14--S14": [
+      "confuse"
+    ],
+    "S5-S14-S12--S5-S10-S9": [
+      "startle"
+    ],
+    "S11-S6-S7-S2--S11--S11": [
+      "detach"
+    ],
+    "S13-S7-S14--S13-S12-S0": [
+      "regrow"
+    ],
+    "S13-S6-S12-S7--S13--S13": [
+      "armor"
+    ],
+    "S10-S12-S4-S17--S10--S3": [
+      "camouflage"
+    ],
+    "S9-S2-S12--S9-S4-S10": [
+      "warn"
+    ],
+    "S5-S6-S0-S17--S5-S16": [
+      "freeze"
+    ],
+    "S9-S16-S17-S12-S14--S9": [
+      "fight"
+    ],
+    "S8-S5-S12-S7--S13-S9": [
+      "survive"
+    ],
+    "S19-S16-S6-S7--S19-S5": [
+      "clutch"
+    ],
+    "S14-S6-S17--S14-S7--S14": [
+      "brood"
+    ],
+    "S6-S13-S17-S12--S6--S6": [
+      "guard"
+    ],
+    "S4-S6-S12-S7--S4--S4": [
+      "hatch"
+    ],
+    "S4-S8-S2-S1--S4--S4": [
+      "young"
+    ],
+    "S8-S12-S7-S4--S8-S3": [
+      "grow"
+    ],
+    "S9-S7-S2-S19--S9-S0": [
+      "die"
+    ],
+    "S18-S17-S11-S7--S18--S18": [
+      "birth"
+    ],
+    "S7-S17-S2-S4--S7-S1": [
+      "mother"
+    ],
+    "S16-S14-S9--S16-S17-S0": [
+      "father"
+    ],
+    "S8-S7-S12--S8-S19-S14": [
+      "spawn"
+    ],
+    "S4-S18-S13-S7--S4--S4": [
+      "fertile"
+    ],
+    "S17-S16-S0--S17-S14-S10": [
+      "season"
+    ],
+    "S17-S5-S12--S17-S7-S18": [
+      "cycle"
+    ],
+    "S1-S1-S1-S1-S1": [
+      "big"
+    ],
+    "S2-S17-S4-S6--S2-S1": [
+      "small"
+    ],
+    "S1-S3-S15-S14--S1-S0": [
+      "long"
+    ],
+    "S5-S2-S7-S10--S5-S18": [
+      "short"
+    ],
+    "S1-S4-S18-S12--S1-S14": [
+      "wide"
+    ],
+    "S5-S10-S12-S14-S12--S5": [
+      "narrow"
+    ],
+    "S19-S1-S3-S15-S0-S13": [
+      "thick"
+    ],
+    "S19-S5-S18-S12-S9--S19": [
+      "thin"
+    ],
+    "S18-S4-S2-S6--S18-S0": [
+      "round"
+    ],
+    "S19-S18-S10-S5--S19--S19": [
+      "flat"
+    ],
+    "S3-S6-S12-S4--S3--S3": [
+      "curved"
+    ],
+    "S4-S12-S6-S2--S4--S4": [
+      "pointed"
+    ],
+    "S1-S6-S12-S11--S1-S4": [
+      "bulge"
+    ],
+    "S4-S2-S17-S7--S4-S1": [
+      "tiny"
+    ],
+    "S1-S1-S19-S1-S19--S2": [
+      "huge"
+    ],
+    "S8-S7-S17-S12--S8-S15": [
+      "one"
+    ],
+    "S8-S15-S6-S11--S8--S8": [
+      "two",
+      "three"
+    ],
+    "S8-S15-S6-S1--S8--S8": [
+      "four"
+    ],
+    "S8-S15-S6--S8-S11-S12": [
+      "five"
+    ],
+    "S8-S15-S6--S8-S1-S11": [
+      "six"
+    ],
+    "S4-S17-S15-S16--S4--S4": [
+      "seven"
+    ],
+    "S4-S18-S17--S4-S12-S6": [
+      "eight"
+    ],
+    "S15-S15-S15-S15-S15": [
+      "many"
+    ],
+    "S15-S2-S10-S16--S1--S1": [
+      "few"
+    ],
+    "S16-S9-S10-S7-S12--S16": [
+      "none"
+    ],
+    "S18-S5-S11-S15--S19--S14": [
+      "all"
+    ],
+    "S15-S7-S6-S11--S1-S11": [
+      "some"
+    ],
+    "S15-S16-S6-S18-S12--S15": [
+      "more"
+    ],
+    "S2-S10-S7-S5--S2-S19": [
+      "less"
+    ],
+    "S16-S2-S7-S8-S12-S18": [
+      "here"
+    ],
+    "S16-S15-S10-S18-S17-S11": [
+      "there"
+    ],
+    "S2-S8-S6--S2-S1-S1": [
+      "above"
+    ],
+    "S3-S16-S2-S11--S0-S10": [
+      "below"
+    ],
+    "S6-S8-S2-S11-S7--S6": [
+      "inside"
+    ],
+    "S11-S17-S6-S4-S2--S11": [
+      "outside"
+    ],
+    "S2-S2-S2-S2-S2": [
+      "near"
+    ],
+    "S2-S5-S3-S14-S0--S2": [
+      "far"
+    ],
+    "S2-S3-S18-S11--S2-S10": [
+      "between"
+    ],
+    "S3-S2-S7-S10--S3-S6": [
+      "under"
+    ],
+    "S1-S16-S6-S7-S12--S1": [
+      "over"
+    ],
+    "S2-S18-S6-S9-S15--S0": [
+      "beside"
+    ],
+    "S10-S16-S2-S7--S10-S12": [
+      "behind"
+    ],
+    "S16-S4-S11-S12--S16-S6": [
+      "ahead"
+    ],
+    "S2-S11-S6-S13-S18-S18": [
+      "around"
+    ],
+    "S3-S12-S7-S5--S3-S11": [
+      "through"
+    ],
+    "S18-S11-S10-S12--S18-S14": [
+      "across"
+    ],
+    "S16-S4-S7-S1--S16--S16": [
+      "left"
+    ],
+    "S18-S16-S12--S18-S14-S11": [
+      "right"
+    ],
+    "S18-S2-S17-S4--S18-S6": [
+      "center"
+    ],
+    "S16-S16-S16-S16-S16": [
+      "now"
+    ],
+    "S18-S2-S6-S16--S18--S18": [
+      "before"
+    ],
+    "S16-S6-S15-S11--S16-S7": [
+      "after"
+    ],
+    "S16-S2-S5-S15-S15-S5": [
+      "soon"
+    ],
+    "S16-S17-S4--S16-S18-S6": [
+      "always"
+    ],
+    "S5-S6-S7--S5-S9--S15": [
+      "never"
+    ],
+    "S16-S14-S0-S9--S16-S7": [
+      "again"
+    ],
+    "S16-S18-S0-S6--S16--S16": [
+      "once"
+    ],
+    "S4-S17-S16-S10--S4-S6": [
+      "night"
+    ],
+    "S16-S17-S0-S11--S16-S7": [
+      "day"
+    ],
+    "S4-S16-S7-S12--S4-S10": [
+      "dawn"
+    ],
+    "S16-S10-S4-S14--S16-S4": [
+      "dusk"
+    ],
+    "S17-S16-S0-S18--S17--S17": [
+      "moon"
+    ],
+    "S4-S17-S7-S16--S4-S12": [
+      "sun"
+    ],
+    "S4-S14-S5-S6-S6-S8": [
+      "warm"
+    ],
+    "S17-S0-S16-S9--S17-S2": [
+      "cold"
+    ],
+    "S4-S16-S11-S17--S4-S12": [
+      "cool"
+    ],
+    "S5-S4-S6-S0-S9-S8": [
+      "hot"
+    ],
+    "S8-S16-S0-S10--S8-S15": [
+      "still"
+    ],
+    "S11-S11-S11-S11-S11": [
+      "moving"
+    ],
+    "S19-S10-S17-S16--S19--S19": [
+      "murky"
+    ],
+    "S18-S4-S11-S19--S18-S12": [
+      "clear"
+    ],
+    "S3-S3-S3-S3-S3": [
+      "deep"
+    ],
+    "S3-S4-S12-S10--S13-S7": [
+      "shallow"
+    ],
+    "S8-S4-S19-S18-S11-S0": [
+      "fresh"
+    ],
+    "S3-S4-S17--S3-S11-S6": [
+      "brackish"
+    ],
+    "S0-S16-S6-S17--S0-S17": [
+      "frozen"
+    ],
+    "S4-S19-S7-S11--S4--S4": [
+      "bubbly"
+    ],
+    "S19-S11-S17-S7--S19--S19": [
+      "foam"
+    ],
+    "S17-S5-S6-S11--S17--S17": [
+      "storm"
+    ],
+    "S17-S11-S1-S9--S17--S17": [
+      "thunder"
+    ],
+    "S4-S17-S11-S6-S2--S17": [
+      "light"
+    ],
+    "S10-S4-S9-S12--S10-S17": [
+      "darkness"
+    ],
+    "S17-S16-S10-S9--S17-S11": [
+      "rain"
+    ],
+    "S5-S6--S5-S11-S15-S7": [
+      "wind"
+    ],
+    "S19-S5-S7-S11--S19--S0": [
+      "surge"
+    ],
+    "S5-S7-S6--S5--S5-S11": [
+      "whirlpool"
+    ],
+    "S8-S3-S11--S8-S12--S8": [
+      "upwelling"
+    ],
+    "S0-S16-S17-S6--S0-S13": [
+      "ice"
+    ],
+    "S4-S10-S12--S5-S17--S0": [
+      "bioluminescence"
+    ],
+    "S4-S16-S7-S11--S4--S4": [
+      "spark"
+    ],
+    "S4-S12-S10--S4-S7-S3": [
+      "beam"
+    ],
+    "S4-S10-S11-S12--S3--S0": [
+      "flicker"
+    ],
+    "S5-S8-S7-S10--S5-S12": [
+      "pulse"
+    ],
+    "S4-S16-S7-S12--S8-S10": [
+      "shine"
+    ],
+    "S16-S7-S12-S3--S16-S4": [
+      "reflect"
+    ],
+    "S4-S10-S18-S6--S4-S16": [
+      "transparent"
+    ],
+    "S0-S0-S0-S0-S0": [
+      "hard"
+    ],
+    "S19-S17-S4-S12--S19-S0": [
+      "soft"
+    ],
+    "S13-S3-S17-S6-S14--S13": [
+      "wet"
+    ],
+    "S0-S16-S9-S14--S0-S18": [
+      "dry"
+    ],
+    "S19-S11-S0-S8--S19-S4": [
+      "sticky"
+    ],
+    "S9-S19-S11-S12-S6--S3": [
+      "slippery"
+    ],
+    "S13-S18-S19-S2-S0--S13": [
+      "loose"
+    ],
+    "S18-S5-S12-S17--S18--S18": [
+      "firm",
+      "calm"
+    ],
+    "S4-S0-S9-S18--S4--S4": [
+      "jagged"
+    ],
+    "S14-S3-S10-S18--S14--S14": [
+      "hollow"
+    ],
+    "S8-S8-S8-S8-S8": [
+      "alive"
+    ],
+    "S8-S0-S17-S9-S10-S6": [
+      "dead"
+    ],
+    "S5-S8-S6-S14--S5-S11": [
+      "hungry"
+    ],
+    "S18-S19-S13-S4-S1-S15": [
+      "full"
+    ],
+    "S4-S16-S0--S4-S7-S11": [
+      "tired"
+    ],
+    "S5-S0-S1-S13-S3-S4": [
+      "strong"
+    ],
+    "S9-S4-S16-S0--S9--S9": [
+      "weak"
+    ],
+    "S9-S16-S18-S0-S11-S17": [
+      "sick"
+    ],
+    "S4-S18-S13-S9-S8--S4": [
+      "healthy"
+    ],
+    "S9-S16-S10-S18-S0--S9": [
+      "broken"
+    ],
+    "S18-S18-S18-S18-S18": [
+      "whole"
+    ],
+    "S18-S10-S11-S17--S18--S18": [
+      "empty"
+    ],
+    "S16-S6-S12-S13-S12--S16": [
+      "open"
+    ],
+    "S6-S16-S9-S11--S6-S2": [
+      "closed"
+    ],
+    "S9-S18-S4-S11-S6--S9": [
+      "safe"
+    ],
+    "S7-S10-S9--S7-S11-S18": [
+      "alone"
+    ],
+    "S7-S11-S15-S17--S7--S7": [
+      "other"
+    ],
+    "S14-S9-S11-S7--S14-S10": [
+      "stranger"
+    ],
+    "S14-S17-S12-S2--S14--S14": [
+      "kin"
+    ],
+    "S14-S16-S7-S8--S14-S17": [
+      "same"
+    ],
+    "S4-S11-S15-S0-S10--S4": [
+      "different"
+    ],
+    "S12-S12-S12-S12-S12": [
+      "approach"
+    ],
+    "S6-S12-S11-S16--S6--S6": [
+      "retreat"
+    ],
+    "S18-S5-S10-S12--S18-S2": [
+      "share"
+    ],
+    "S5-S10-S11-S7--S5--S5": [
+      "steal"
+    ],
+    "S12-S0-S9-S8-S7--S12": [
+      "challenge"
+    ],
+    "S16-S12-S9-S11--S16--S16": [
+      "submit"
+    ],
+    "S4-S12-S17-S11--S4-S10": [
+      "signal"
+    ],
+    "S16-S4-S17-S12--S16--S16": [
+      "display"
+    ],
+    "S12-S13-S6-S7--S12--S12": [
+      "posture"
+    ],
+    "S17-S16-S12-S10--S17-S4": [
+      "show"
+    ],
+    "S4-S19-S10-S12--S4--S1": [
+      "darken"
+    ],
+    "S11-S12-S0--S11-S7-S7": [
+      "raise"
+    ],
+    "S19-S11-S12--S13-S18-S18": [
+      "flatten"
+    ],
+    "S2-S17-S4-S12--S2--S2": [
+      "point"
+    ],
+    "S12-S4-S6-S14--S12-S2": [
+      "beckon"
+    ],
+    "S5-S10-S12--S5-S6-S7": [
+      "repel"
+    ],
+    "S9-S12-S2--S9-S14-S14": [
+      "threaten"
+    ],
+    "S9-S14-S12-S10--S9-S7": [
+      "fear"
+    ],
+    "S9-S7-S14-S11--S9--S9": [
+      "anger"
+    ],
+    "S8-S12-S10-S9--S8-S4": [
+      "curious"
+    ],
+    "S9-S14-S12-S10-S7--S9": [
+      "wary"
+    ],
+    "S4-S19-S12-S7--S4-S14": [
+      "eager"
+    ],
+    "S13-S14-S11-S7--S13-S9": [
+      "restless"
+    ],
+    "S18-S12-S19-S10--S18-S17": [
+      "content"
+    ],
+    "S9-S10-S11-S14--S9--S9": [
+      "startled"
+    ],
+    "S4-S5-S19-S13-S7-S1": [
+      "bold"
+    ],
+    "S8-S1-S18-S4-S7--S8": [
+      "good"
+    ],
+    "S9-S0-S14-S1-S18-S4": [
+      "bad"
+    ],
+    "S16-S17-S15-S14--S16--S16": [
+      "yes"
+    ],
+    "S9-S16-S17--S9-S10--S9": [
+      "no"
+    ],
+    "S16-S9-S15--S16-S14-S2": [
+      "maybe"
+    ],
+    "S16-S15-S12-S0--S16-S11": [
+      "want"
+    ],
+    "S2-S0-S7-S5--S2-S11": [
+      "need"
+    ],
+    "S14-S8-S2-S16--S14-S15": [
+      "know"
+    ],
+    "S16-S14-S12-S15--S16--S16": [
+      "remember"
+    ],
+    "S14-S16-S9--S14-S7-S11": [
+      "forget"
+    ],
+    "S12-S4-S7-S3--S12-S8": [
+      "learn"
+    ],
+    "S12-S5-S2-S8-S7--S12": [
+      "try"
+    ],
+    "S9-S7-S0-S12--S9-S5": [
+      "fail"
+    ],
+    "S5-S12-S7-S8--S5-S8": [
+      "succeed"
+    ],
+    "S4-S12-S7-S11--S4-S16": [
+      "choose"
+    ],
+    "S5-S5-S5-S5-S5": [
+      "fast"
+    ],
+    "S5-S3-S0-S11-S12--S5": [
+      "slow"
+    ],
+    "S5-S5-S2-S4-S10-S11": [
+      "quick"
+    ],
+    "S0-S1-S19-S13-S9--S0": [
+      "heavy"
+    ],
+    "S1-S16-S14-S9-S13--S1": [
+      "old"
+    ],
+    "S11-S3-S16-S17-S4--S11": [
+      "new"
+    ],
+    "S4-S16-S7-S0--S4--S4": [
+      "better"
+    ],
+    "S9-S0-S16--S13-S7-S2": [
+      "worse"
+    ],
+    "S18-S16-S19-S9--S18--S18": [
+      "enough"
+    ],
+    "S1-S9-S15-S18--S1-S19": [
+      "too much"
+    ],
+    "S0-S14-S9-S10-S11--S0": [
+      "strange"
+    ],
+    "S14-S14-S14-S14-S14": [
+      "familiar"
+    ],
+    "S12-S16-S18-S7--S12-S5": [
+      "begin"
+    ],
+    "S16-S3-S7-S12--S16-S6": [
+      "end"
+    ],
+    "S16-S5-S10-S6--S18-S6": [
+      "wait"
+    ],
+    "S11-S11-S5-S12-S7-S2": [
+      "move"
+    ],
+    "S5-S16-S6--S5-S9-S2": [
+      "stop"
+    ],
+    "S16-S12-S8-S5--S16--S16": [
+      "continue"
+    ],
+    "S17-S16-S15--S17-S11-S12": [
+      "number"
+    ],
+    "S5-S12-S11-S7--S5--S5": [
+      "build"
+    ],
+    "S16-S9-S18-S12--S16-S7": [
+      "break"
+    ],
+    "S16-S19-S12-S11--S16-S15": [
+      "gather"
+    ],
+    "S14-S5-S12-S10--S14--S14": [
+      "scatter"
+    ],
+    "S16-S19-S12-S18--S16-S4": [
+      "mix"
+    ],
+    "S18-S11-S10-S6--S18-S6": [
+      "separate"
+    ],
+    "S18-S19-S12-S6--S18--S18": [
+      "fill"
+    ],
+    "S3-S6-S11--S3-S17-S17": [
+      "drain"
+    ],
+    "S18-S9-S10--S18-S19-S14": [
+      "rot"
+    ],
+    "S2-S17-S18-S11--S2-S4": [
+      "north"
+    ],
+    "S2-S17-S18-S11--S2--S2": [
+      "south"
+    ],
+    "S8-S11-S0-S16--S8-S3": [
+      "up"
+    ],
+    "S3-S11-S16-S9-S0--S3": [
+      "down"
+    ],
+    "S3-S6-S7-S12-S7--S3": [
+      "inward"
+    ],
+    "S18-S6-S4-S12--S18--S18": [
+      "outward"
+    ],
+    "S5-S12-S11-S7-S6--S5": [
+      "forward"
+    ],
+    "S0-S6-S7--S0-S11-S11": [
+      "backward"
+    ],
+    "S11-S10-S14-S5-S6--S11": [
+      "away"
+    ],
+    "S2-S12-S3-S7-S11--S2": [
+      "toward"
+    ],
+    "S17-S10-S19-S2--S17--S17": [
+      "bubble"
+    ],
+    "S17-S19-S12--S17-S10--S17": [
+      "sediment"
+    ],
+    "S4-S17-S12--S4-S18-S11": [
+      "gravel"
+    ],
+    "S17-S0-S16-S12--S17--S17": [
+      "clay"
+    ],
+    "S9-S18-S17-S10--S9--S9": [
+      "wreck"
+    ],
+    "S17-S16-S0-S4--S17-S6": [
+      "metal"
+    ],
+    "S4-S17-S18--S4-S6-S11": [
+      "glass"
+    ],
+    "S17-S4-S6-S16--S17-S9": [
+      "plastic"
+    ],
+    "S9-S16-S12-S14-S7--S16": [
+      "poison"
+    ],
+    "S17-S18-S2--S17-S11-S12": [
+      "waste"
+    ],
+    "S17-S2-S5-S12--S17--S17": [
+      "chain"
+    ],
+    "S5-S14-S12-S10--S5--S5": [
+      "anchor"
+    ],
+    "S17-S1-S10-S0--S17--S17": [
+      "hulk"
+    ],
+    "S19-S11-S7--S19-S17-S12": [
+      "timber"
+    ],
+    "S11-S7-S10-S12-S5--S11": [
+      "carry"
+    ],
+    "S9-S16-S12-S10--S9-S11": [
+      "drop"
+    ],
+    "S16-S6-S12-S11-S15--S16": [
+      "hold"
+    ],
+    "S2-S6-S12-S5--S2-S11": [
+      "close"
+    ],
+    "S12-S8-S10-S11--S12-S7": [
+      "explore"
+    ],
+    "S2-S12-S17--S2-S10-S6": [
+      "probe"
+    ],
+    "S5-S17-S12-S7--S5--S5": [
+      "test"
+    ],
+    "S17-S11-S14-S10--S17-S5": [
+      "drag"
+    ],
+    "S14-S6-S11--S14-S3-S12": [
+      "bury"
+    ],
+    "S16-S5-S9-S6--S16--S16": [
+      "second"
+    ],
+    "S16-S2-S5-S17--S16--S16": [
+      "minute"
+    ],
+    "S16-S17-S19-S12--S16--S16": [
+      "hour"
+    ],
+    "S2-S7-S11--S2-S0-S17": [
+      "month"
+    ],
+    "S17-S7-S11--S17--S17-S1": [
+      "year"
+    ],
+    "S16-S17-S7--S16-S12-S14": [
+      "I"
+    ],
+    "S7-S16-S7-S18-S11--S2": [
+      "myself"
+    ],
+    "S17-S17-S17-S17-S17": [
+      "animal"
+    ],
+    "S16-S17-S0-S7-S11--S16": [
+      "time"
+    ],
+    "S1-S16-S11--S1-S7-S18": [
+      "week"
+    ],
+    "S8-S7-S3--S8-S5-S12": [
+      "lifetime"
+    ],
+    "S8-S7-S12--S8-S1-S1": [
+      "generation"
+    ]
+  },
+  "statistics": {
+    "total_concepts": 496,
+    "unique_words": 494,
+    "synonyms": 2
+  }
+}
