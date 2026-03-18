@@ -2,43 +2,43 @@
   "0": [
     {
       "word": "hard",
-      "similarity": 0.9999998211860657
+      "similarity": 0.9999999403953552
     },
     {
       "word": "rough",
-      "similarity": 0.8298926949501038
+      "similarity": 0.8298924565315247
     },
     {
       "word": "heavy",
-      "similarity": 0.7948538064956665
+      "similarity": 0.7948533296585083
     },
     {
       "word": "thick",
-      "similarity": 0.771239161491394
+      "similarity": 0.7712385654449463
     },
     {
       "word": "strong",
-      "similarity": 0.7700985074043274
+      "similarity": 0.7700979709625244
     },
     {
       "word": "deep",
-      "similarity": 0.7541801929473877
+      "similarity": 0.7541794180870056
     },
     {
       "word": "dark",
-      "similarity": 0.7506528496742249
+      "similarity": 0.7506523728370667
     },
     {
       "word": "huge",
-      "similarity": 0.7359244227409363
+      "similarity": 0.7359241843223572
     },
     {
       "word": "big",
-      "similarity": 0.7342965006828308
+      "similarity": 0.7342961430549622
     },
     {
       "word": "bad",
-      "similarity": 0.7329409718513489
+      "similarity": 0.7329404950141907
     }
   ],
   "1": [
@@ -48,53 +48,53 @@
     },
     {
       "word": "huge",
-      "similarity": 0.9387288093566895
+      "similarity": 0.938728928565979
     },
     {
       "word": "thick",
-      "similarity": 0.7877504825592041
+      "similarity": 0.7877501249313354
     },
     {
       "word": "strong",
-      "similarity": 0.7747883200645447
+      "similarity": 0.7747880220413208
     },
     {
       "word": "heavy",
-      "similarity": 0.7729752063751221
+      "similarity": 0.7729746699333191
     },
     {
       "word": "long",
-      "similarity": 0.7572921514511108
+      "similarity": 0.757291853427887
     },
     {
       "word": "wide",
-      "similarity": 0.7460827827453613
+      "similarity": 0.7460821866989136
     },
     {
       "word": "full",
-      "similarity": 0.7429494857788086
+      "similarity": 0.7429488301277161
     },
     {
       "word": "deep",
-      "similarity": 0.7407683730125427
+      "similarity": 0.7407676577568054
     },
     {
       "word": "bold",
-      "similarity": 0.734960675239563
+      "similarity": 0.7349600791931152
     }
   ],
   "2": [
     {
       "word": "near",
-      "similarity": 0.9999995827674866
+      "similarity": 0.9999997019767761
     },
     {
       "word": "soon",
-      "similarity": 0.7830873131752014
+      "similarity": 0.7830871343612671
     },
     {
       "word": "beside",
-      "similarity": 0.7795864343643188
+      "similarity": 0.7795864939689636
     },
     {
       "word": "around",
@@ -102,489 +102,489 @@
     },
     {
       "word": "far",
-      "similarity": 0.7450416684150696
+      "similarity": 0.7450413107872009
     },
     {
       "word": "toward",
-      "similarity": 0.7355512976646423
+      "similarity": 0.7355512380599976
     },
     {
       "word": "between",
-      "similarity": 0.7253262996673584
+      "similarity": 0.7253257632255554
     },
     {
       "word": "close",
-      "similarity": 0.721215546131134
+      "similarity": 0.7212151288986206
     },
     {
       "word": "here",
-      "similarity": 0.7197439670562744
+      "similarity": 0.7197434306144714
     },
     {
       "word": "below",
-      "similarity": 0.7195970416069031
+      "similarity": 0.7195965051651001
     }
   ],
   "3": [
     {
       "word": "deep",
-      "similarity": 0.9999997019767761
+      "similarity": 0.9999998807907104
     },
     {
       "word": "depth",
-      "similarity": 0.8607254028320312
+      "similarity": 0.8607251644134521
     },
     {
       "word": "thick",
-      "similarity": 0.7948672771453857
+      "similarity": 0.7948671579360962
     },
     {
       "word": "dark",
-      "similarity": 0.768443763256073
+      "similarity": 0.7684434652328491
     },
     {
       "word": "heavy",
-      "similarity": 0.7635141015052795
+      "similarity": 0.7635136842727661
     },
     {
       "word": "down",
-      "similarity": 0.7592581510543823
+      "similarity": 0.7592578530311584
     },
     {
       "word": "hard",
-      "similarity": 0.7541853785514832
+      "similarity": 0.7541849613189697
     },
     {
       "word": "long",
-      "similarity": 0.7533911466598511
+      "similarity": 0.7533910274505615
     },
     {
       "word": "shallow",
-      "similarity": 0.7489545941352844
+      "similarity": 0.7489543557167053
     },
     {
       "word": "strong",
-      "similarity": 0.7456157803535461
+      "similarity": 0.7456152439117432
     }
   ],
   "4": [
     {
       "word": "bright",
-      "similarity": 0.9999999403953552
+      "similarity": 0.9999997019767761
     },
     {
       "word": "bold",
-      "similarity": 0.8174324035644531
+      "similarity": 0.8174318075180054
     },
     {
       "word": "warm",
-      "similarity": 0.8078898191452026
+      "similarity": 0.8078893423080444
     },
     {
       "word": "dark",
-      "similarity": 0.7958815693855286
+      "similarity": 0.7958813905715942
     },
     {
       "word": "light",
-      "similarity": 0.7889835238456726
+      "similarity": 0.7889829874038696
     },
     {
       "word": "sharp",
-      "similarity": 0.7843790650367737
+      "similarity": 0.7843784093856812
     },
     {
       "word": "glow",
-      "similarity": 0.7776583433151245
+      "similarity": 0.7776578068733215
     },
     {
       "word": "green",
-      "similarity": 0.7756394743919373
+      "similarity": 0.7756390571594238
     },
     {
       "word": "fresh",
-      "similarity": 0.7747431993484497
+      "similarity": 0.7747425436973572
     },
     {
       "word": "color",
-      "similarity": 0.7725542187690735
+      "similarity": 0.7725538611412048
     }
   ],
   "5": [
     {
       "word": "fast",
-      "similarity": 0.9999998807907104
+      "similarity": 0.9999998211860657
     },
     {
       "word": "quick",
-      "similarity": 0.8825842142105103
+      "similarity": 0.8825840950012207
     },
     {
       "word": "bold",
-      "similarity": 0.8020433783531189
+      "similarity": 0.8020429015159607
     },
     {
       "word": "hot",
-      "similarity": 0.7826325297355652
+      "similarity": 0.7826319336891174
     },
     {
       "word": "strong",
-      "similarity": 0.780462920665741
+      "similarity": 0.7804623246192932
     },
     {
       "word": "slow",
-      "similarity": 0.7757092118263245
+      "similarity": 0.7757088541984558
     },
     {
       "word": "bright",
-      "similarity": 0.7590023279190063
+      "similarity": 0.7590019106864929
     },
     {
       "word": "soon",
-      "similarity": 0.7549161911010742
+      "similarity": 0.7549158334732056
     },
     {
       "word": "sharp",
-      "similarity": 0.7521823048591614
+      "similarity": 0.7521817684173584
     },
     {
       "word": "warm",
-      "similarity": 0.7519195675849915
+      "similarity": 0.7519189715385437
     }
   ],
   "6": [
     {
       "word": "inside",
-      "similarity": 0.7363972067832947
+      "similarity": 0.7363963723182678
     },
     {
       "word": "inward",
-      "similarity": 0.7252433896064758
+      "similarity": 0.7252432107925415
     },
     {
       "word": "closed",
-      "similarity": 0.7170979380607605
+      "similarity": 0.7170975804328918
     },
     {
       "word": "open",
-      "similarity": 0.7161205410957336
+      "similarity": 0.7161199450492859
     },
     {
       "word": "boundary",
-      "similarity": 0.715724527835846
+      "similarity": 0.7157241702079773
     },
     {
       "word": "entrance",
-      "similarity": 0.7138939499855042
+      "similarity": 0.7138932347297668
     },
     {
       "word": "lid",
-      "similarity": 0.7075195908546448
+      "similarity": 0.7075191736221313
     },
     {
       "word": "wrap",
-      "similarity": 0.7044314742088318
+      "similarity": 0.704430878162384
     },
     {
       "word": "den",
-      "similarity": 0.6960070729255676
+      "similarity": 0.6960067749023438
     },
     {
       "word": "deep",
-      "similarity": 0.6920416355133057
+      "similarity": 0.692040741443634
     }
   ],
   "7": [
     {
       "word": "myself",
-      "similarity": 0.8491272330284119
+      "similarity": 0.8491267561912537
     },
     {
       "word": "body",
-      "similarity": 0.721673309803009
+      "similarity": 0.7216726541519165
     },
     {
       "word": "mother",
-      "similarity": 0.7075969576835632
+      "similarity": 0.707596480846405
     },
     {
       "word": "inward",
-      "similarity": 0.6915563344955444
+      "similarity": 0.6915556788444519
     },
     {
       "word": "object",
-      "similarity": 0.6837664246559143
+      "similarity": 0.6837660074234009
     },
     {
       "word": "flesh",
-      "similarity": 0.6826177835464478
+      "similarity": 0.6826174259185791
     },
     {
       "word": "whole",
-      "similarity": 0.678922176361084
+      "similarity": 0.6789212822914124
     },
     {
       "word": "reflect",
-      "similarity": 0.6768674850463867
+      "similarity": 0.6768667101860046
     },
     {
       "word": "head",
-      "similarity": 0.6761118769645691
+      "similarity": 0.676111102104187
     },
     {
       "word": "one",
-      "similarity": 0.6746423840522766
+      "similarity": 0.6746419072151184
     }
   ],
   "8": [
     {
       "word": "alive",
-      "similarity": 1.000000238418579
+      "similarity": 1.0000003576278687
     },
     {
       "word": "dead",
-      "similarity": 0.7902045249938965
+      "similarity": 0.7902041673660278
     },
     {
       "word": "fresh",
-      "similarity": 0.7792633175849915
+      "similarity": 0.7792630195617676
     },
     {
       "word": "healthy",
-      "similarity": 0.7626699209213257
+      "similarity": 0.7626694440841675
     },
     {
       "word": "now",
-      "similarity": 0.7558378577232361
+      "similarity": 0.7558372020721436
     },
     {
       "word": "good",
-      "similarity": 0.7499299049377441
+      "similarity": 0.7499295473098755
     },
     {
       "word": "current",
-      "similarity": 0.7449735403060913
+      "similarity": 0.7449733018875122
     },
     {
       "word": "bright",
-      "similarity": 0.7414078712463379
+      "similarity": 0.7414074540138245
     },
     {
       "word": "still",
-      "similarity": 0.7402682900428772
+      "similarity": 0.7402677536010742
     },
     {
       "word": "hungry",
-      "similarity": 0.7358734011650085
+      "similarity": 0.7358734607696533
     }
   ],
   "9": [
     {
       "word": "danger",
-      "similarity": 0.8896669149398804
+      "similarity": 0.8896667957305908
     },
     {
       "word": "poison",
-      "similarity": 0.771205723285675
+      "similarity": 0.7712053656578064
     },
     {
       "word": "bad",
-      "similarity": 0.7625831961631775
+      "similarity": 0.7625830173492432
     },
     {
       "word": "slippery",
-      "similarity": 0.7605340480804443
+      "similarity": 0.7605335712432861
     },
     {
       "word": "sick",
-      "similarity": 0.7349455952644348
+      "similarity": 0.7349451780319214
     },
     {
       "word": "safe",
-      "similarity": 0.7318943738937378
+      "similarity": 0.7318941354751587
     },
     {
       "word": "wary",
-      "similarity": 0.7310038805007935
+      "similarity": 0.7310037612915039
     },
     {
       "word": "salty",
-      "similarity": 0.7300186157226562
+      "similarity": 0.7300180792808533
     },
     {
       "word": "hot",
-      "similarity": 0.7242114543914795
+      "similarity": 0.7242109179496765
     },
     {
       "word": "bitter",
-      "similarity": 0.716154932975769
+      "similarity": 0.7161546945571899
     }
   ],
   "10": [
     {
       "word": "hide",
-      "similarity": 0.8294546604156494
+      "similarity": 0.8294543623924255
     },
     {
       "word": "dark",
-      "similarity": 0.7221116423606873
+      "similarity": 0.72211092710495
     },
     {
       "word": "behind",
-      "similarity": 0.7130313515663147
+      "similarity": 0.7130307555198669
     },
     {
       "word": "away",
-      "similarity": 0.7022510766983032
+      "similarity": 0.7022504806518555
     },
     {
       "word": "escape",
-      "similarity": 0.6998493075370789
+      "similarity": 0.6998489499092102
     },
     {
       "word": "transparent",
-      "similarity": 0.6978870034217834
+      "similarity": 0.6978866457939148
     },
     {
       "word": "dim",
-      "similarity": 0.6975354552268982
+      "similarity": 0.6975350379943848
     },
     {
       "word": "deep",
-      "similarity": 0.6965996623039246
+      "similarity": 0.6965991258621216
     },
     {
       "word": "darkness",
-      "similarity": 0.6923966407775879
+      "similarity": 0.6923962831497192
     },
     {
       "word": "shadow",
-      "similarity": 0.6923902034759521
+      "similarity": 0.6923894286155701
     }
   ],
   "11": [
     {
       "word": "moving",
-      "similarity": 0.999999463558197
+      "similarity": 0.9999997019767761
     },
     {
       "word": "move",
-      "similarity": 0.8938130140304565
+      "similarity": 0.8938128352165222
     },
     {
       "word": "push",
-      "similarity": 0.7356016635894775
+      "similarity": 0.7356011867523193
     },
     {
       "word": "change",
-      "similarity": 0.7291398644447327
+      "similarity": 0.7291392087936401
     },
     {
       "word": "outside",
-      "similarity": 0.7280753254890442
+      "similarity": 0.7280747890472412
     },
     {
       "word": "around",
-      "similarity": 0.7190874814987183
+      "similarity": 0.7190867066383362
     },
     {
       "word": "away",
-      "similarity": 0.7170881628990173
+      "similarity": 0.7170878052711487
     },
     {
       "word": "new",
-      "similarity": 0.7108486890792847
+      "similarity": 0.7108480930328369
     },
     {
       "word": "forward",
-      "similarity": 0.7011402249336243
+      "similarity": 0.7011397480964661
     },
     {
       "word": "flee",
-      "similarity": 0.6966648101806641
+      "similarity": 0.6966643333435059
     }
   ],
   "12": [
     {
       "word": "approach",
-      "similarity": 1.0000001192092896
+      "similarity": 0.9999998807907104
     },
     {
       "word": "toward",
-      "similarity": 0.735380232334137
+      "similarity": 0.7353798151016235
     },
     {
       "word": "challenge",
-      "similarity": 0.7279700040817261
+      "similarity": 0.7279694676399231
     },
     {
       "word": "entrance",
-      "similarity": 0.718238353729248
+      "similarity": 0.7182379961013794
     },
     {
       "word": "try",
-      "similarity": 0.7147146463394165
+      "similarity": 0.7147143483161926
     },
     {
       "word": "climb",
-      "similarity": 0.7144380807876587
+      "similarity": 0.7144376635551453
     },
     {
       "word": "touch",
-      "similarity": 0.7055174112319946
+      "similarity": 0.7055168151855469
     },
     {
       "word": "reach",
-      "similarity": 0.705167829990387
+      "similarity": 0.7051672339439392
     },
     {
       "word": "push",
-      "similarity": 0.702035665512085
+      "similarity": 0.702035129070282
     },
     {
       "word": "forward",
-      "similarity": 0.7000340819358826
+      "similarity": 0.7000337243080139
     }
   ],
   "13": [
     {
       "word": "alive",
-      "similarity": 0.7956284880638123
+      "similarity": 0.7956281304359436
     },
     {
       "word": "strong",
-      "similarity": 0.7539691925048828
+      "similarity": 0.7539687156677246
     },
     {
       "word": "bold",
-      "similarity": 0.745586097240448
+      "similarity": 0.7455856800079346
     },
     {
       "word": "healthy",
-      "similarity": 0.7449831366539001
+      "similarity": 0.7449828386306763
     },
     {
       "word": "full",
-      "similarity": 0.7364938259124756
+      "similarity": 0.7364932894706726
     },
     {
       "word": "wet",
-      "similarity": 0.7351334691047668
+      "similarity": 0.735133171081543
     },
     {
       "word": "fast",
-      "similarity": 0.7335610389709473
+      "similarity": 0.7335605025291443
     },
     {
       "word": "bright",
-      "similarity": 0.7334656715393066
+      "similarity": 0.7334650754928589
     },
     {
       "word": "loose",
-      "similarity": 0.7327412962913513
+      "similarity": 0.732740581035614
     },
     {
       "word": "hot",
-      "similarity": 0.7302677035331726
+      "similarity": 0.7302671670913696
     }
   ],
   "14": [
@@ -594,249 +594,249 @@
     },
     {
       "word": "match",
-      "similarity": 0.7272887825965881
+      "similarity": 0.7272881269454956
     },
     {
       "word": "strange",
-      "similarity": 0.7257801294326782
+      "similarity": 0.7257797718048096
     },
     {
       "word": "warm",
-      "similarity": 0.7173417806625366
+      "similarity": 0.7173407673835754
     },
     {
       "word": "know",
-      "similarity": 0.7145678400993347
+      "similarity": 0.7145673632621765
     },
     {
       "word": "same",
-      "similarity": 0.7117570042610168
+      "similarity": 0.7117562890052795
     },
     {
       "word": "enemy",
-      "similarity": 0.7086158394813538
+      "similarity": 0.7086154818534851
     },
     {
       "word": "whole",
-      "similarity": 0.7050954699516296
+      "similarity": 0.7050948739051819
     },
     {
       "word": "hollow",
-      "similarity": 0.7018290758132935
+      "similarity": 0.7018285989761353
     },
     {
       "word": "flesh",
-      "similarity": 0.7013282775878906
+      "similarity": 0.7013277411460876
     }
   ],
   "15": [
     {
       "word": "many",
-      "similarity": 1.0000004768371582
+      "similarity": 1.0000003576278687
     },
     {
       "word": "few",
-      "similarity": 0.7638424038887024
+      "similarity": 0.7638422250747681
     },
     {
       "word": "some",
-      "similarity": 0.7275888919830322
+      "similarity": 0.7275888323783875
     },
     {
       "word": "more",
-      "similarity": 0.7110036611557007
+      "similarity": 0.7110031247138977
     },
     {
       "word": "thick",
-      "similarity": 0.6929295063018799
+      "similarity": 0.6929287314414978
     },
     {
       "word": "soon",
-      "similarity": 0.6902405023574829
+      "similarity": 0.6902397274971008
     },
     {
       "word": "strong",
-      "similarity": 0.6848487854003906
+      "similarity": 0.6848481297492981
     },
     {
       "word": "there",
-      "similarity": 0.6827495098114014
+      "similarity": 0.6827489733695984
     },
     {
       "word": "familiar",
-      "similarity": 0.6816394329071045
+      "similarity": 0.6816386580467224
     },
     {
       "word": "long",
-      "similarity": 0.6809771656990051
+      "similarity": 0.6809768080711365
     }
   ],
   "16": [
     {
       "word": "now",
-      "similarity": 1.0000001192092896
+      "similarity": 0.9999997615814209
     },
     {
       "word": "here",
-      "similarity": 0.8364282250404358
+      "similarity": 0.8364276885986328
     },
     {
       "word": "soon",
-      "similarity": 0.8128945827484131
+      "similarity": 0.8128941059112549
     },
     {
       "word": "current",
-      "similarity": 0.807634174823761
+      "similarity": 0.8076337575912476
     },
     {
       "word": "there",
-      "similarity": 0.7685672044754028
+      "similarity": 0.7685665488243103
     },
     {
       "word": "alive",
-      "similarity": 0.7558301091194153
+      "similarity": 0.755829393863678
     },
     {
       "word": "time",
-      "similarity": 0.7474921941757202
+      "similarity": 0.7474918961524963
     },
     {
       "word": "open",
-      "similarity": 0.7382473945617676
+      "similarity": 0.7382470965385437
     },
     {
       "word": "still",
-      "similarity": 0.7354158759117126
+      "similarity": 0.7354152202606201
     },
     {
       "word": "see",
-      "similarity": 0.7345966100692749
+      "similarity": 0.7345960140228271
     }
   ],
   "17": [
     {
       "word": "animal",
-      "similarity": 0.9999997615814209
+      "similarity": 0.9999995231628418
     },
     {
       "word": "whale",
-      "similarity": 0.8021319508552551
+      "similarity": 0.8021320104598999
     },
     {
       "word": "fish",
-      "similarity": 0.7790848016738892
+      "similarity": 0.7790840864181519
     },
     {
       "word": "shark",
-      "similarity": 0.7746827602386475
+      "similarity": 0.7746821641921997
     },
     {
       "word": "meat",
-      "similarity": 0.7705750465393066
+      "similarity": 0.7705746293067932
     },
     {
       "word": "plant",
-      "similarity": 0.7703819870948792
+      "similarity": 0.7703818082809448
     },
     {
       "word": "muscle",
-      "similarity": 0.7615568041801453
+      "similarity": 0.7615562677383423
     },
     {
       "word": "egg",
-      "similarity": 0.7594496607780457
+      "similarity": 0.7594494223594666
     },
     {
       "word": "red",
-      "similarity": 0.7581445574760437
+      "similarity": 0.7581438422203064
     },
     {
       "word": "object",
-      "similarity": 0.7567066550254822
+      "similarity": 0.7567061185836792
     }
   ],
   "18": [
     {
       "word": "whole",
-      "similarity": 1.000000238418579
+      "similarity": 1.0000003576278687
     },
     {
       "word": "full",
-      "similarity": 0.8099627494812012
+      "similarity": 0.8099624514579773
     },
     {
       "word": "flesh",
-      "similarity": 0.739078164100647
+      "similarity": 0.7390778064727783
     },
     {
       "word": "body",
-      "similarity": 0.7306464314460754
+      "similarity": 0.7306457757949829
     },
     {
       "word": "healthy",
-      "similarity": 0.7273916006088257
+      "similarity": 0.7273911833763123
     },
     {
       "word": "clear",
-      "similarity": 0.7267910242080688
+      "similarity": 0.7267903685569763
     },
     {
       "word": "all",
-      "similarity": 0.7257390022277832
+      "similarity": 0.7257387638092041
     },
     {
       "word": "piece",
-      "similarity": 0.7251517176628113
+      "similarity": 0.7251510620117188
     },
     {
       "word": "fresh",
-      "similarity": 0.724417507648468
+      "similarity": 0.724416971206665
     },
     {
       "word": "center",
-      "similarity": 0.722929060459137
+      "similarity": 0.7229286432266235
     }
   ],
   "19": [
     {
       "word": "thick",
-      "similarity": 0.8620033860206604
+      "similarity": 0.8620030283927917
     },
     {
       "word": "full",
-      "similarity": 0.7928013801574707
+      "similarity": 0.792800784111023
     },
     {
       "word": "deep",
-      "similarity": 0.7864907383918762
+      "similarity": 0.7864903807640076
     },
     {
       "word": "heavy",
-      "similarity": 0.7848817706108093
+      "similarity": 0.7848813533782959
     },
     {
       "word": "hard",
-      "similarity": 0.7746735215187073
+      "similarity": 0.7746731042861938
     },
     {
       "word": "huge",
-      "similarity": 0.7735324501991272
+      "similarity": 0.773531973361969
     },
     {
       "word": "strong",
-      "similarity": 0.7511718273162842
+      "similarity": 0.7511712312698364
     },
     {
       "word": "bold",
-      "similarity": 0.7511174082756042
+      "similarity": 0.7511171698570251
     },
     {
       "word": "big",
-      "similarity": 0.7444432973861694
+      "similarity": 0.7444427013397217
     },
     {
       "word": "thin",
-      "similarity": 0.736488401889801
+      "similarity": 0.7364881038665771
     }
   ]
 }

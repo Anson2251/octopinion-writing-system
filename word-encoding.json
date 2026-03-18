@@ -495,7 +495,12 @@
     "time": "S16-S17-S0-S7-S11",
     "week": "S1-S16-S11--S1-S7",
     "lifetime": "S8-S7-S3--S8-S5",
-    "generation": "S8-S7-S12--S8-S1"
+    "generation": "S8-S7-S12--S8-S1",
+    "language": "S17-S12-S5-S19--S17",
+    "speak": "S16-S12-S19-S4--S16",
+    "conversation": "S16-S12-S14-S10--S16",
+    "past": "S16-S10-S15-S11--S16",
+    "ago": "S14-S13-S16--S14-S19"
   },
   "unique_words": {
     "S17-S12-S13--S17-S7": [
@@ -1971,11 +1976,26 @@
     ],
     "S8-S7-S12--S8-S1": [
       "generation"
+    ],
+    "S17-S12-S5-S19--S17": [
+      "language"
+    ],
+    "S16-S12-S19-S4--S16": [
+      "speak"
+    ],
+    "S16-S12-S14-S10--S16": [
+      "conversation"
+    ],
+    "S16-S10-S15-S11--S16": [
+      "past"
+    ],
+    "S14-S13-S16--S14-S19": [
+      "ago"
     ]
   },
   "statistics": {
-    "total_concepts": 496,
-    "unique_words": 489,
+    "total_concepts": 501,
+    "unique_words": 494,
     "synonyms": 7
   }
 }
