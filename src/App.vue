@@ -30,6 +30,13 @@ const route = useRoute()
         >
           Codebook Words
         </router-link>
+        <router-link
+          to="/alphabet"
+          class="nav-link"
+          :class="{ active: route.name === 'alphabet' }"
+        >
+          Alphabet
+        </router-link>
       </div>
     </nav>
 

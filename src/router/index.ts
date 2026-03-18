@@ -2,6 +2,7 @@ import { createRouter, createMemoryHistory } from 'vue-router'
 import ConlangDemo from '../views/ConlangDemo.vue'
 import WordEncoding from '../views/WordEncoding.vue'
 import CodebookWords from '../views/CodebookWords.vue'
+import Alphabet from '../views/Alphabet.vue'
 
 const router = createRouter({
   history: createMemoryHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/codebook-words',
       name: 'codebook-words',
       component: CodebookWords
+    },
+    {
+      path: '/alphabet',
+      name: 'alphabet',
+      component: Alphabet
     }
   ]
 })
