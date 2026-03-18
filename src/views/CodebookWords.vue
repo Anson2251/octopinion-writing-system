@@ -88,7 +88,6 @@ function getSimilarityColor(similarity: number): string {
               <tr>
                 <th>Word</th>
                 <th>Similarity</th>
-                <th>Visual</th>
               </tr>
             </thead>
             <tbody>
@@ -107,12 +106,6 @@ function getSimilarityColor(similarity: number): string {
                       {{ (item.similarity * 100).toFixed(1) }}%
                     </span>
                   </div>
-                </td>
-                <td class="visual-cell">
-                  <div
-                    class="similarity-dot"
-                    :style="{ backgroundColor: getSimilarityColor(item.similarity) }"
-                  ></div>
                 </td>
               </tr>
             </tbody>
